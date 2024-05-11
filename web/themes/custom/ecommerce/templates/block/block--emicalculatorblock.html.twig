@@ -1,0 +1,68 @@
+<div class="container py-5 mt-2 mt-lg-0">
+  <h2 class="py-5">Please fill in the details below to calculate your EMI.</h2>
+  <div class="emi-container">
+    <div class="emi-calculator">
+      <div class="emi-inputs">
+        <div class="d-flex justify-content-between align-items-center">
+          <label for="principal">
+            <div class="tb-fs-18 fw-bold">Loan Amount (Rs.)</div>
+          </label>
+        <h2 id="principal-label">&#8377; 0</h2>
+        </div>
+        <input type="range" id="principal" name="principal" min="0" max="6000000" step="10000">
+        <div class="d-flex justify-content-between">
+          <span>&#8377; 0</span>
+          <span>&#8377; 60 lacs</span>
+        </div>
+      </div>
+      <div class="emi-inputs">
+      <div class="d-flex justify-content-between align-items-center">
+        <label for="tenure">
+          <div class="tb-fs-18 fw-bold">Loan Tenure (In Months)</div>
+        </label>
+        <h2 id="tenure-label">0 Months</h2>
+        </div>
+        <input type="range" id="tenure" name="tenure" min="0" max="120" step="3">
+        <div class="d-flex justify-content-between">
+          <span>0</span>
+          <span>120 Months</span>
+        </div>
+      </div>
+      <div class="emi-inputs">
+      <div class="d-flex justify-content-between align-items-center">
+        <label for="interest-rate">
+          <div class="tb-fs-18 fw-bold">Interest Rate (%)</div>
+        </label>
+        <h2 id="interest-rate-label">0%</h2>
+        </div>
+        <input type="range" id="interest-rate" name="interest-rate" min="0" max="15" step="0.05">
+        <div class="d-flex justify-content-between">
+          <span>0%</span>
+          <span>15%</span>
+        </div>
+      </div>
+      <div class="emi-btn-container">
+        <button id="calculate-emi">Calculate EMI</button>
+        <button id="reset">Reset</button>
+      </div>
+    </div>
+    <div class="emi-results">
+      <ul>
+        <li id="principal-amount" class="tb-fs-20">Principal Amount:<br> &#8377; 0.00</li>
+        <li id="total-interest" class="tb-fs-20">Total Interest:<br> &#8377; 0.00</li>
+        <li id="total-amount" class="tb-fs-20">Total Amount:<br> &#8377; 0.00</li>
+        <li id="emi-result" class="tb-fs-20">Monthly EMI:<br> &#8377; 0.00</li>
+      </ul>
+      <div class="emi-result">
+        <div id="emi-results">EMI:<br> &#8377; 0.00</div>
+        <canvas id="myChart" style="height:295px;"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="emi-disclaimer pt-5">
+    <div class="tb-fs-20">Disclaimer:</div>
+    <p>*Interest rate/ Finance disbursal will depend on banks discretion. The calculation performed by EMI Calculator is based on the information you entered and is for illustrative purposes only. This calculation reflects amounts in Indian Rupee rounded to the nearest whole figure. Estimated monthly payments DO NOT include any processing or other possible fees which may depend on the financial institution / banks.</p>
+    <p>All loan figures are based upon non-commercial usage and are subject to credit approval from an independent lending source. Actual down payment and resulting monthly payments may vary depending upon type and use of vehicle, regional lender requirements, and the strength of your credit. Check with your dealer for exact monthly payment.</p>
+  </div>
+</div>

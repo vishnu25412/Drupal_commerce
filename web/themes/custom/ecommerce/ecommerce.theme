@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Trucks B5 theme file.
+ */
+
+use Drupal\views_bootstrap\ViewsBootstrap;
+use Drupal\Core\Template\Attribute;
+
+function busb5_preprocess_views_view(&$variables) {
+  if ($variables['id'] === 'vehicles_finder' && $variables['display_id'] == 'block_1') {
+    $test = $variables['exposed'];
+    $variables['exposed']['field_vehicle_type_target_id']['#attributes']['class'][] = 'active bus-finder-filter-vehicle-type';
+    $variables['exposed']['field_applications_target_id']['#attributes']['class'][] = 'bus-finder-filter-application';
+    $variables['exposed']['field_truck_applications_target_id']['#attributes']['class'][] = 'van-finder-filter-application';
+    $variables['exposed']['field_seater_target_id']['#attributes']['class'][] = 'bus-finder-filter-seater';
+    $variables['exposed']['field_seater_target_id_1']['#attributes']['class'][] = 'van-finder-filter-seater';
+    $variables['exposed']['field_fuel_target_id']['#attributes']['class'][] = 'bus-finder-filter-fuel';
+    $variables['exposed']['field_fuel_target_id_1']['#attributes']['class'][] = 'van-finder-filter-fuel';
+  }
+}
+
+/**
+ * Implements hook_preprocess_html().
+ */
+function busb5_preprocess_html(&$vars) {
+  // Get the current path
+  $current_path = \Drupal::service('path.current')->getPath();
+  $internal = \Drupal::service('path_alias.manager')->getAliasByPath($current_path);
+
+  // Assign it to body class
+  $vars['attributes']['class'][] = str_replace("/", "", $internal);
+}

@@ -1,0 +1,22 @@
+global-styling:
+  css:
+    theme:
+      css/style.css: {}
+      css/custom-style.css: {}
+      css/home.css: {}
+      css/custom.css: {}
+      css/override.css: {}
+      css/about-us.css: {}
+      css/vehicle-finder.css: {}
+      css/about-infrastructure.css: {}
+      css/style-responsive.css: {}
+      css/brandpage.css: {}
+      css/application.css: {}
+      css/vans.css: {}
+      css/webform.css: {}
+      css/compare.css: {}
+# global-scripts:
+#   js:
+#     js/tatamotors.js: {}
+#   dependencies:
+#     - core/jquery

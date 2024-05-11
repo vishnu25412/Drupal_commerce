@@ -1,0 +1,324 @@
+@media all {
+    /* Right Selection */
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id {
+        /* width: 50%; */
+        text-align: center;
+        border: 2px solid #BABABA;
+        width: 428px;
+        height: 412px;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id input {
+        display: none;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label {
+        color: transparent;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id input:checked+label::after {
+        background: #201F59;
+        color: #fff;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        border: 1px solid #201F59;
+        padding: 17px 53px 17px 53px;
+        color: #201F59;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(1) label::before {
+        content: '';
+        background: url('../images/ultra_nonac_bus.png') no-repeat;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(1) label::after {
+        content: 'Buses';
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::before {
+        display: block;
+        background-size: 80% !important;
+        height: 65%;
+        background-position: center !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(2) {
+        margin: 0 0 0 1.5rem;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(2) label::before {
+        content: '';
+        background: url('../images/van.png') no-repeat;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(2) label::after {
+        content: 'Vans';
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        padding: 12px 15px;
+        display: block;
+        width: 40%;
+        margin: auto;
+    }
+    main #block-views-block-vehicles-finder-block-1 {
+        padding: 60px 0 0;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder {
+        border: 1px solid #BABABA !important;
+        padding: 40px;
+        position: relative;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline {
+        width: 70%;
+        margin-left: 30%;
+        height: 420px;
+        position: relative;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup {
+        width: 100%;
+        height: 100% !important;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        content: "";
+        display: block;
+        position: absolute;
+        background-color: var(--primary-500);
+        width: 2px;
+        height: calc(100% - 85px);
+        top: 72px;
+        left: -39%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend {
+        position: absolute;
+        left: -35%;
+        font-family: var(--f_heavy);
+        font-size: 18px;
+        color: #DCDCDC;
+        z-index: 3;
+        width: 200px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after {
+        all: unset;
+        content: " ";
+        display: block;
+        position: absolute;
+        background-color: var(--gray-100);
+        width: 15px;
+        height: 15px;
+        top: 0px;
+        left: -24.2%;
+        margin: auto;
+        border-radius: 100%;
+        z-index: 1;
+        outline: 1px solid #ccc;
+        border: 5px solid #fff;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after {
+        all: unset;
+        content: " ";
+        display: block;
+        position: absolute;
+        background-color: var(--primary-500);
+        width: 15px;
+        height: 15px;
+        top: 0px;
+        left: -24.2%;
+        margin: auto;
+        border-radius: 100%;
+        z-index: 1;
+        outline: 1px solid #ccc;
+        border: 5px solid #fff;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend .form-required::after {
+        content: "›";
+        position: absolute;
+        background-image: none;
+        right: 56px;
+        font-size: 30px;
+        top: 12px;
+        line-height: 0;
+        color: var(--primary-500);
+        height: 10px;
+        font-size: 40px;
+        font-weight: lighter;
+        margin: auto;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend .form-required::after {
+        background-image: none;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper {
+        background: #fff;
+        position: relative;
+        width: 100%;
+        height: 0%;
+        visibility: hidden;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios {
+        position: absolute;
+        left: 0;
+        top: 60px !important;
+        bottom: 0;
+        margin: auto;
+        width: 100%;
+        border: 1px solid var(--gray-500);
+        padding: 20px 30px;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios {
+        border: none !important;
+        padding-top: 0 !important;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldset-wrapper .form-radios .form-radios {
+        all: unset;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3px;
+    }
+    .bus-finder-filter-vehicle-type .form-radios .form-radios {
+        all: unset !important;
+        display: flex !important;
+        gap: 5% !important;
+        height: 100% !important;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-radios label.option {
+        cursor: pointer;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .media-library-view--widget .view-header a.fieldgroup.is-active,
+    .media-library-view--widget .view-header main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline a.fieldgroup.is-active {
+        z-index: 3;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active .fieldset-wrapper,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .media-library-view--widget .view-header a.fieldgroup.is-active .fieldset-wrapper,
+    .media-library-view--widget .view-header main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline a.fieldgroup.is-active .fieldset-wrapper {
+        height: 100%;
+        visibility: visible;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .media-library-view--widget .view-header a.fieldgroup.is-active legend,
+    .media-library-view--widget .view-header main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline a.fieldgroup.is-active legend {
+        color: #000;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(1) legend {
+        top: 65px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(2) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(3) legend {
+        top: 175px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(4) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(5) legend {
+        bottom: 115px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(6) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(7) legend {
+        bottom: 10px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .form-actions {
+        text-align: center;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .form-actions .button {
+        background: none;
+        border: none;
+        border-bottom: 1.6px solid var(--primary-500) !important;
+        color: var(--primary-500) !important;
+        padding: 0;
+        border-radius: 0;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id {
+        width: 50%;
+        text-align: center;
+        border: 2px solid #BABABA;
+        width: 100%;
+        height: 100%;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after:hover,
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after:active {
+        font-family: unineue-regular;
+        background: var(--primary-500);
+        color: var(--gray-100) !important;
+        border: 1.5px solid var(--primary-500) !important;
+        transition: var(--tran-05);
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        background: var(--gray-100);
+        color: var(--primary-500) !important;
+        border: 1.5px solid var(--primary-500) !important;
+    }
+    /* #view-id-vehicles_finder .container .view-content{
+    display: none;
+  } */
+    #views-exposed-form-vehicles-finder-block-1 input.form-submit[value="Reset"] {
+        position: absolute;
+        z-index: 3;
+        right: 32px;
+        top: 0;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios {
+        top: 50px !important;
+        padding: 5px 10px !important;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldset-wrapper .form-radios .form-radios {
+        all: unset;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::before {
+        display: block;
+        background-size: 70% !important;
+        height: 70%;
+        background-position: center !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper {
+        width: 340px !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        width: 80px !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        position: absolute;
+        left: -35px !important;
+        bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper {
+        width: 185px !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        width: 65px !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        position: absolute;
+        left: -25px !important;
+        bottom: 0px;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::before {
+        display: block !important;
+        background-size: 85% !important;
+        height: 63% !important;
+        background-position: top !important;
+    }
+    #edit-field-vehicle-type-target-id .form-item,
+    main .view-vehicles-finder .view-filters .form--inline fieldset .fieldset-wrapper .form-radios .form-radios .form-item {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper {
+        width: 165px !important;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -39.3%;
+    }
+}

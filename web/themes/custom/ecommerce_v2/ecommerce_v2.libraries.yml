@@ -1,0 +1,12 @@
+global-styling:
+  css:
+    theme:
+      css/comman.css: {}
+      css/style.css: {}
+      css/ck5style.css: {}
+      
+global-scripts:
+  js:
+    js/comman.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,299 @@
+.vans-download-brochure-icon span a::after {
+  content: 'Download Brochure';
+  display: block;
+  color: var(--gray-700) !important;
+  font-size: 12px;
+  text-decoration: none;
+  margin-top: -20px;
+}
+
+.vans-download-brochure-icon span a {
+  text-decoration: none;
+  font-size: 0px;
+}
+
+.vans-download-brochure-icon .file--application-pdf {
+  background: none;
+}
+
+#block-views-block-vans-header-block-1 #flexslider-1 .slides img {
+  width: 80%;
+  display: block;
+}
+
+#block-views-block-vans-header-block-1 #flexslider-2 {
+  margin-bottom: 40px;
+}
+
+#block-views-block-vans-header-block-1 .flexslider .slides img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  height: 400px;
+}
+
+#block-views-block-bus-header-block-1 #view-id-bus_header .flexslider .slides img {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  height: 400px !important;
+}
+
+#block-views-block-vans-header-block-1 .flexslider {
+  margin: 0;
+  position: relative;
+  zoom: 1;
+}
+
+/* owl dots css */
+#view-id-vans_header ul.slick__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: absolute;
+  bottom: 6%;
+  right: 50%;
+}
+
+#view-id-vans_header ul.slick__arrow li {
+  font-size: 30px;
+  color: #dcdcdc;
+  cursor: pointer;
+}
+
+#view-id-vans_header ul.slick__arrow li.slick-active {
+  color: white;
+}
+
+#view-id-vans_header ul.slick__arrow #slick-slide-control00,
+#view-id-vans_header ul.slick__arrow #slick-slide-control01,
+#view-id-vans_header nav.slick__arrow {
+  display: none;
+}
+
+/* features accordian */
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .field__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav {
+  width: 421px;
+  padding: 0 20px;
+  flex-direction: column !important;
+  flex-wrap: nowrap !important;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav .nav-item {
+  flex-grow: 0 !important;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav .nav-item .nav-link {
+  border-top: 1px solid var(--gray-500) !important;
+  background-color: var(--gray-100);
+  border-radius: 0;
+  color: var(--gray-800);
+  font-family: var(--font-bold);
+  font-size: 20px;
+  line-height: 29px;
+  padding: 20px !important;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav .nav-item .nav-link.active {
+  color: var(--gray-100) !important;
+  background-color: var(--primary-500);
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav,
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .tab-content {
+  overflow-y: auto;
+  padding-right: 0;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav::-webkit-scrollbar,
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .tab-content::-webkit-scrollbar {
+  height: 5px !important;
+  width: 5px !important;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav::-webkit-scrollbar-track,
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .tab-content::-webkit-track {
+  border-right: 5px dashed #dcdcdc;
+  border-top: 5px dashed #dcdcdc;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .nav::-webkit-scrollbar-thumb,
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .tab-content::-webkit-thumb {
+  background-color: var(--primary-500);
+  border-radius: 5px;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 .tab-content {
+  width: calc(100% - 421px);
+  border: 1px solid var(--gray-500);
+
+}
+
+/* vans-specifications style */
+
+.vans-specifications {
+  background-color: var(--gray-350);
+  border-bottom: 1px solid white;
+}
+
+#views-bootstrap-tab-views-bootstrap-vans-header-block-5 img {
+  height: 498px;
+  max-height: 100%;
+}
+
+#view-id-bus_header .flexslider {
+  margin: 0;
+  background: #fff;
+  border: 4px solid #fff;
+  position: relative;
+  zoom: 1;
+}
+
+#flexslider-2 ul.slides li {
+  width: 170px !important;
+  margin-right: 5px;
+  float: left;
+  padding: 6px 10px;
+  display: block;
+  background: white;
+  border: 6px solid #F5F5F5;
+}
+
+#flexslider-2 ul.slides li.flex-active-slide {
+  border: 1px solid #307FE2;
+}
+
+#flexslider-2 ul.slides li img {
+  height: fit-content;
+}
+
+/* Overview sticky menu */
+/* Overview */
+
+.page-node-type-vans .trucks-sticky-menu {
+  padding: 0;
+  background-color: #F5F5F5;
+  box-shadow: 0px 2px 6px 0px #00000029;
+  border-top: 1px solid #F2F2F2;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-trucks-overview-about {
+  padding: 0 !important;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content {
+  display: flex;
+  flex-wrap: inherit;
+  gap: 20px;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row {
+  flex-shrink: inherit;
+  width: fit-content;
+  /* margin: auto; */
+  padding: 0;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  font-size: 16px;
+  padding: 10px 10px;
+  margin: 10px 0;
+  line-height: 16px;
+  font-weight: 700;
+  font-family: var(--font-bold);
+  border-bottom: 2px solid transparent;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row a:hover {
+  color: #0A0A5F;
+  border-bottom: 2px solid #0A0A5F;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row a.active {
+  color: #0A0A5F;
+  border-bottom: 2px solid #0A0A5F;
+}
+
+.product-enquire-now-popup-button a {
+  background: #0A0A5F;
+  color: white !important;
+  font-family: var(--font-regular) !important;
+}
+
+.page-node-type-vans .trucks-sticky-menu.active,
+.page-node-type-products .media-library-view--widget .view-header a.trucks-sticky-menu.is-active,
+.media-library-view--widget .view-header .page-node-type-products a.trucks-sticky-menu.is-active {
+  position: sticky;
+  top: 98px;
+  z-index: 55;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content {
+  position: relative;
+}
+
+
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row.views-row-last {
+  position: absolute;
+  right: 12px;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row.views-row-last a {
+  color: white;
+  background-color: #0A0A5F;
+  border-radius: 0;
+  text-wrap: nowrap;
+}
+
+@media only screen and (max-width: 425px) {
+  .page-node-type-vans .trucks-sticky-menu .view-content {
+    width: 410px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    height: 60px;
+    overflow-y: hidden;
+  }
+
+  .page-node-type-vans .trucks-sticky-menu .view-content::-webkit-scrollbar {
+    height: 3px !important;
+    width: 3px !important;
+  }
+
+  .page-node-type-vans .trucks-sticky-menu .view-content::-webkit-scrollbar-thumb {
+    background: var(--primary-500) !important;
+    border-radius: 3px;
+  }
+
+  .page-node-type-vans .trucks-sticky-menu .view-content::-webkit-scrollbar-track {
+    border-right: 3px dashed #DCDCDC;
+    border-top: 3px dashed #DCDCDC;
+  }
+
+  .page-node-type-vans .trucks-sticky-menu .view-content .views-row.views-row-last {
+    position: unset;
+  }
+}

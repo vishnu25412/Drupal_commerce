@@ -1,0 +1,239 @@
+.bg-white {
+    background-color: white !important;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Thank you message styling */
+
+.ui-dialog .ui-dialog-titlebar {
+    border-radius: 0 !important;
+    background-color: #0A0A5F !important;
+    background-image: radial-gradient(#93939357 1px, #ffffff00 0) !important;
+    background-size: 30px 30px !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    filter: invert(1);
+    background: transparent url('data:image/svg+xml,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 16 16\' fill=\'%23000\'%3e%3cpath d=\'M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z\'/%3e%3c/svg%3e') center/1em auto no-repeat !important;
+}
+
+.ui-dialog:not(.ui-dialog-off-canvas) {
+    border-radius: 0 !important;
+}
+
+.ui-dialog .ui-widget-content.ui-dialog-content {
+    padding-left: 0 !important;
+}
+
+
+/* ENQ Fixed */
+
+.enquire-footer-slide-button {
+    position: fixed;
+    z-index: 22;
+    bottom: 0;
+    right: 5%;
+    width: auto;
+    transition: all 0.5s;
+    .container {
+        width: auto;
+        a {
+            padding: 10px 20px;
+            display: block;
+            color: #fff;
+            background: #0A0A5F;
+            text-decoration: none;
+            width: 150px;
+            text-align: center;
+        }
+        .enquire-footer-slide-button.active .container .enquire-close-button {
+            display: none;
+        }
+    }
+    &.active {
+        bottom: 240px;
+        .container {
+            a {
+                background: #F5F5F5;
+                color: #0A0A5F;
+            }
+            .enquire-footer-slide-button.active .container .enquire-close-button {
+                display: block;
+            }
+            .enquire-button {
+                display: block;
+            }
+        }
+    }
+}
+
+.footer-enquire-now-form-popup .container h2 {
+    display: none;
+}
+
+.footer-enquire-now-form-popup {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 22222;
+    height: 0;
+    overflow: auto;
+    display: flex !important;
+    transition: all 0.5s;
+    box-shadow: 0 0 7px 0 #b5b3b3;
+    background-color: #F5F5F5;
+    &.show {
+        height: 240px;
+    }
+    .container {
+        width: var(--container) !important;
+    }
+    .webform-ajax-form-wrapper {
+        .container {
+            position: relative;
+        }
+        .webform-submission-form {
+            /* display: grid;
+      grid-template-columns: repeat(5, 1fr); */
+            width: 100%;
+            gap: 0 20px;
+            .form-control {
+                border-radius: 0;
+                padding: 10px 20px;
+            }
+            label {
+                font-size: 12px;
+                line-height: 14px;
+            }
+            .form-actions {
+                position: absolute;
+                right: 0;
+                bottom: 20px;
+                margin: auto;
+                display: flex;
+                height: 40px;
+                width: 150px;
+                .btn {
+                    background-color: #0A0A5F;
+                    padding: 10px 15px;
+                    border-radius: 0;
+                    color: #fff;
+                }
+            }
+            .js-form-type-checkbox {
+                position: relative;
+                margin: 0;
+                .form-checkbox {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    margin: auto;
+                }
+                label {
+                    padding-left: 24px;
+                    display: block;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form .captcha {
+        margin: -14px 0 0 -75px;
+    }
+    .footer-enquire-now-form-popup .container {
+        position: relative;
+    }
+    .footer-enquire-now-form-popup .container h2 {
+        display: block;
+        background-color: var(--primary-500);
+        color: white;
+        padding: 16px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .footer-enquire-now-form-popup .container form {
+        margin-top: 60px;
+    }
+    .enquire-footer-slide-button.active {
+        position: fixed;
+        z-index: 22;
+        bottom: 470px;
+        right: 21px;
+        width: auto;
+        transition: all 0.5s;
+        transform: rotate(0deg);
+    }
+    .enquire-footer-slide-button.active a {
+        background-color: #0A0A5F !important;
+        color: white !important;
+        padding: 10px 0px !important;
+        width: 60px !important;
+    }
+    .footer-enquire-now-form-popup.show {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: #000000b2;
+        overflow: hidden;
+    }
+    .footer-enquire-now-form-popup.show .container {
+        height: 90%;
+        padding: 20px;
+        overflow: auto;
+        background: #fff;
+    }
+    .footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form {
+        display: block;
+    }
+    .footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form .form-actions {
+        position: inherit;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form .form-control {
+        padding: 5px 20px;
+    }
+    .footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form .js-form-type-checkbox label {
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 5px;
+    }
+    .footer-enquire-now-form-popup .webform-ajax-form-wrapper .g-recaptcha {
+        transform: scale(0.7);
+        margin: -13px 0 0;
+        height: 64px;
+    }
+    .enquire-footer-slide-button .container a {
+        padding: 5px 10px;
+        width: 100px;
+        font-size: 12px;
+        line-height: 11px;
+    }
+    .enquire-footer-slide-button.active,
+    .media-library-view--widget .view-header a.enquire-footer-slide-button.is-active {
+        z-index: 2222222;
+    }
+}
+
+#webform-submission-sticky-enquire-now-form-ajax form .form-type-checkbox {
+    margin-bottom: 10px;
+}
+
+#block-webform .container form input::placeholder {
+    color: #000;
+}
+
+
+/* ENQ Fixed End */

@@ -1,0 +1,14 @@
+{% if page.footer %}
+<footer class="mt-auto {{ footer_classes }}">
+  <div class="{{ test }}">
+    {{ page.footer }}
+  </div>
+</footer>
+{% endif %}
+{% if page.hidden %}
+<div class="hidden {{ hidden_classes }}">
+  <div class="{{ b5_top_container }}">
+    {{ page.hidden }}
+  </div>
+</div>
+{% endif %}

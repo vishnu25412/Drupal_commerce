@@ -1,0 +1,31 @@
+mydata.mydata_form:
+  path: '/mydata/form/mydata'
+  defaults:
+    _form: '\Drupal\mydata\Form\MydataForm'
+    _title: 'Add Form'
+  requirements:
+    _access: 'TRUE'
+
+mydata.display_table_controller_display:
+  path: '/mydata/hello/table'
+  defaults:
+    _controller: '\Drupal\mydata\Controller\DisplayTableController::display'
+    _title: 'Display Details'
+  requirements:
+    _permission: 'access content'
+
+mydata.delete_form:
+  path: '/mydata/form/delete/{cid}'
+  defaults:
+    _form: '\Drupal\mydata\Form\DeleteForm'
+    _title: 'Delete Details'
+  requirements:
+    _access: 'TRUE'
+
+mydata.show_data:
+  path: '/mydata/form/view/{id}/show'
+  defaults:
+    _controller: '\Drupal\mydata\Controller\MydataController::show'
+    _title: 'Show Details'
+  requirements:
+    _permission: 'access content'

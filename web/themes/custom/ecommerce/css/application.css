@@ -1,0 +1,243 @@
+.choose-tata {
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+}
+
+.know-more {
+    width: 200px;
+}
+
+
+/* Override css */
+
+#block-views-block-bus-header-block-9 {
+    background-color: var(--gray-300);
+}
+
+#block-views-block-application-view-block-1 .container {
+    width: 100%;
+}
+
+
+/* ##########SAME FOR LIVE FOR TEMPORARY */
+
+#application-testimonials {
+    position: relative;
+}
+
+#application-testimonials .slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: url(../images/arrow2.png) no-repeat;
+    display: block;
+    height: 30px;
+    width: 20px;
+    border: none;
+    transform: rotate(180deg);
+}
+
+#application-testimonials .slick-next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: url(../images/arrow2.png) no-repeat;
+    height: 30px;
+    width: 20px;
+    display: block;
+    border: none;
+}
+
+#application-testimonials .testimonials-card {
+    height: 260px;
+}
+
+#application-testimonials .testimonials-card p:first-child {
+    height: 100px;
+}
+
+#view-id-testimonials .view-content .slick {
+    position: relative;
+}
+
+#view-id-testimonials .slick-prev {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    background: url(../images/arrow2.png) no-repeat;
+    display: block;
+    height: 30px;
+    width: 20px;
+    border: none;
+    transform: rotate(180deg);
+}
+
+#view-id-testimonials .slick-next {
+    position: absolute;
+    top: 45%;
+    right: 0;
+    background: url(../images/arrow2.png) no-repeat;
+    height: 30px;
+    width: 20px;
+    display: block;
+    border: none;
+}
+
+#view-id-testimonials .testimonials-card {
+    height: 260px;
+}
+
+#view-id-testimonials .testimonials-card p:first-child {
+    height: 100px;
+}
+
+
+/* choose tata motors styling */
+
+#block-views-block-application-view-block-4 #view-id-application_view .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .container .view-header {
+    width: 25%;
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .container .view-content {
+    width: 75%;
+    flex: 0 0 auto;
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .container .view-content #block-views-block-application-view-block-4 #view-id-application_view-card {
+    width: 100%;
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .container .view-content #block-views-block-application-view-block-4 #view-id-application_view-card img {
+    width: 100%;
+    height: fit-content;
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .slick__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 0;
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .slick-prev {
+    background: url(../images/arrow2.png) no-repeat;
+    height: 26px;
+    width: 20px;
+    display: block;
+    border: none;
+    transform: rotate(180deg);
+}
+
+#block-views-block-application-view-block-4 #view-id-application_view .slick-next {
+    background: url(../images/arrow2.png) no-repeat;
+    height: 26px;
+    width: 20px;
+    display: block;
+    border: none;
+}
+
+#block-views-block-application-view-block-2 #view-id-application_view .container {
+    width: 100%;
+}
+
+
+/* dealer locator css with responsive */
+
+@media only screen and (max-width: 768px) {
+    #view-id-dealer_locator .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .dealers .block-views-blockdealer-locator-block-1 .view-dealer-locator .attachment {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+    .dealers .block-views-blockdealer-locator-block-1 .view-dealer-locator .view-content {
+        width: 100%;
+        margin: 0;
+        display: block;
+        overflow: hidden;
+        overflow-y: auto;
+        padding-right: 0px;
+    }
+    .dealers .block-views-blockdealer-locator-block-1 .view-dealer-locator .view-filters {
+        width: 100%;
+        padding-right: 0;
+    }
+    #block-views-block-application-view-block-4 #view-id-application_view .container {
+        display: block;
+    }
+    #block-views-block-application-view-block-4 #view-id-application_view .container .view-header {
+        width: 100%;
+    }
+    #block-views-block-application-view-block-4 #view-id-application_view .container .view-content {
+        width: 100%;
+    }
+}
+
+
+/* contact css with responsive */
+
+@media only screen and (max-width: 425px) {
+    .services-assistance-block .assistance-call,
+    .services-assistance-block .toll-free-call {
+        flex-direction: column;
+    }
+    .contact .contact-us-locations-map .views-field-field-contact-us-address {
+        width: 400px;
+        padding: 0;
+    }
+    #block-views-block-application-view-block-4 #view-id-application_view .container {
+        display: block;
+    }
+    #block-views-block-application-view-block-4 #view-id-application_view .container .view-header {
+        width: 100%;
+    }
+    #block-views-block-application-view-block-4 #view-id-application_view .container .view-content {
+        width: 100%;
+    }
+    .brandpage-banner .heading-1 {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .choose-tata-block .choose-tata {
+        height: 295px;
+    }
+}
+
+@media (max-width: 768px) {
+    .choose-tata-block .choose-tata {
+        height: 215px;
+    }
+    .choose-tata-block .tb-fs-40 {
+        font-size: 28px !important;
+    }
+    .choose-tata-block .heading-5 {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 425px) {}
+
+@media (max-width: 375px) {
+    .choose-tata-block .tb-fs-40 {
+        font-size: 26px !important;
+    }
+}

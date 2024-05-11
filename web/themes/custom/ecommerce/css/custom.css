@@ -1,0 +1,1028 @@
+/* Get Quote Popup */
+
+.ui-widget.ui-widget-content {
+    background: var(--bs-white) !important;
+    padding: 15px !important;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    background: var(--primary-500);
+    padding: 15px;
+    margin: -15px -15px 0;
+}
+
+[dir="ltr"] .ui-dialog .ui-dialog-titlebar-close {
+    right: 15px !important;
+}
+
+[dir="ltr"] .ui-dialog .ui-dialog-titlebar-close .ui-icon-closethick {
+    background-image: none !important;
+}
+
+[dir="ltr"] .ui-dialog .ui-dialog-titlebar-close .ui-icon-closethick::after {
+    content: 'X';
+    display: block;
+    height: 25px;
+    width: 25px;
+    color: #fff;
+}
+
+.ui-dialog .ui-dialog-title {
+    color: var(--bs-white) !important;
+}
+
+[dir="ltr"] .ui-dialog .ui-dialog-title {
+    padding: 15px !important;
+}
+
+
+/* Right Selection */
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id {
+    /* width: 50%; */
+    text-align: center;
+    border: 2px solid #BABABA;
+    width: 428px;
+    height: 412px;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id input {
+    display: none;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label {
+    color: transparent;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id input:checked+label::after {
+    background: #201F59;
+    color: #fff;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+    border: 1px solid #201F59;
+    padding: 17px 53px 17px 53px;
+    color: #201F59;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(1) label::before {
+    content: '';
+    background: url('../images/ultra_nonac_bus.png') no-repeat;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(1) label::after {
+    content: 'Buses';
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::before {
+    display: block;
+    background-size: 100%;
+    height: 80%;
+    /* width: 80%; */
+    background-position: center !important;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(2) {
+    margin: 0 0 0 1.5rem;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(2) label::before {
+    content: '';
+    background: url('../images/van.png') no-repeat;
+    /* display: block;
+  background-size: 100%; */
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(2) label::after {
+    content: 'Vans';
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+    padding: 17px 53px 17px 53px;
+}
+
+
+/* Product Detail Page Specification */
+
+#specifications {
+    margin-top: 5rem !important;
+}
+
+.specifications ul {
+    border: var(--bs-border-width) var(--bs-border-style) #BABABA;
+    margin: 0 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.paragraph--type--specification {
+    display: flex;
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+    border-top: var(--bs-border-width) var(--bs-border-style) #BABABA;
+}
+
+.paragraph--type--specification .field__item {
+    flex: 0 0 auto;
+    width: 50%;
+    font-family: var(--font-regular);
+    font-size: 20px;
+    padding: 1rem 0.5rem;
+}
+
+.paragraph--type--specification .field--name-field-label {
+    background-color: var(--gray-300);
+    margin-left: -1.5rem;
+    padding-left: 1.5rem;
+    font-weight: 700;
+}
+
+.specifications ul li {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    flex: 0 0 auto;
+    width: 50%;
+    list-style: none;
+    margin: 0;
+}
+
+.specifications ul li:nth-child(1) .paragraph--type--specification,
+.specifications ul li:nth-child(2) .paragraph--type--specification {
+    border-top: 0;
+}
+
+
+/* Benefits Points */
+
+.view-id-benefits .view-header {
+    padding: 75px 0 15px 0;
+}
+
+.views-field-field-bus-benefits-points ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.views-field-field-bus-benefits-points ul li {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    margin-left: 0;
+    list-style: none;
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-left: calc(var(--bs-gutter-x) * 2.5);
+    margin-top: 35px;
+}
+
+.paragraph--type--bus-benefit {
+    border-radius: var(--bs-border-radius-xl) !important;
+    align-items: center !important;
+    height: 100% !important;
+    border: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
+    position: relative !important;
+    display: flex !important;
+}
+
+.field--name-field-benefit-image.field__item {
+    border-radius: 50% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    transform: translate(-50%, -50%) !important;
+    left: 0 !important;
+    top: 50% !important;
+    display: flex !important;
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary-500);
+    position: absolute;
+}
+
+.field--name-field-benefit-text {
+    margin-left: 1rem !important;
+    text-align: left !important;
+    padding: 1rem 2rem 1rem 3.5rem;
+    margin-bottom: 0 !important;
+    font-size: 20px;
+    font-family: var(--font-bolder);
+}
+
+.field--name-field-benefit-text p {
+    margin: 0;
+}
+
+
+/* Bus Header */
+
+.main-header-view>.container {
+    display: flex;
+    /* gap: 20px; */
+    margin-top: 65px;
+}
+
+.main-header-view .view-header,
+.main-header-view>.view-content {
+    width: 50%;
+    flex: 0 0 auto;
+}
+
+.main-header-view>.view-content {
+    margin-left: 40px;
+}
+
+.main-header-view>.view-content .views-row {
+    padding: 0;
+}
+
+.main-header-view>.view-content .views-row div.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* enquire now and view-models styling */
+
+
+/* For vans  */
+
+#block-enquirenowvansheader .enq-button-sec {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#block-enquirenowvansheader .enq-button-sec a {
+    width: 24%;
+    border: 1px solid #0A0A5F;
+    padding-block: 11px;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--font-regular);
+}
+
+#block-enquirenowvansheader .enq-button-sec .ajac-progress {
+    display: none;
+}
+
+#block-enquirenowvansheader .enq-button-sec a:first-child {
+    background: #0A0A5F;
+    color: #fff;
+}
+
+#block-enquirenowvansheader .enq-button-sec a:last-child {
+    color: #0A0A5F;
+}
+
+
+/* Vans sticky header menu enquire now styling */
+
+#block-enquirenowbusstickyheadermenu .container .clearfix {
+    float: right;
+    z-index: 9;
+    color: black;
+    position: sticky;
+}
+
+#block-enquirenowbusstickyheadermenu .container .clearfix a.test-btn {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin: 10px 0;
+    line-height: 16px;
+    font-weight: 700;
+    font-family: var(--font-bold);
+    border-bottom: 2px solid transparent;
+    background: #0A0A5F;
+    border-radius: 0;
+}
+
+
+/* For buses */
+
+#block-views-block-bus-header-block-1 .enq-button-sec {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-right: 70px;
+}
+
+#block-views-block-bus-header-block-1 .enq-button-sec a {
+    width: 23%;
+    border: 1px solid #0A0A5F;
+    padding-block: 11px;
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: var(--font-regular);
+}
+
+#block-views-block-bus-header-block-1 .enq-button-sec .ajac-progress {
+    display: none;
+}
+
+#block-views-block-bus-header-block-1 .enq-button-sec a:first-child {
+    background: #0A0A5F;
+    color: #fff;
+}
+
+#block-views-block-bus-header-block-1 .enq-button-sec a:last-child {
+    color: #0A0A5F;
+}
+
+.bus-gallary-icon>a {
+    text-decoration: none;
+}
+
+.bus-gallary-icon>a::after {
+    content: 'Gallery';
+    display: block;
+    color: var(--gray-700) !important;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.bus-gallary-icon a img {
+    display: none;
+}
+
+#carousel .slides li.flex-active-slide {
+    border: 1px solid #307FE2;
+}
+
+#carousel .slides li {
+    height: 130px;
+    width: 150px !important;
+    display: flex !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 2px;
+    margin-right: 5px;
+    background: white;
+    border: 6px solid #F5F5F5;
+}
+
+
+/* Overview */
+
+.page-node-type-products .trucks-sticky-menu .view-content {
+    position: relative;
+}
+
+.page-node-type-products .trucks-sticky-menu.mytesting1 .view-content .views-row.views-row-last {
+    position: absolute;
+    right: 12px;
+}
+
+.page-node-type-products .trucks-sticky-menu.mytesting1 .view-content .views-row.views-row-last a {
+    color: white;
+    background-color: #0A0A5F;
+    border-radius: 0;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row .views-row-last {
+    position: absolute;
+    right: 0;
+}
+
+.page-node-type-vans .trucks-sticky-menu .view-content .views-row .views-row-last a {
+    color: white;
+    background-color: #0A0A5F;
+    border-radius: 0;
+}
+
+#block-views-block-bus-header-block-8 {
+    padding: 80px 0;
+    background-color: var(--gray-300);
+}
+
+#block-views-block-bus-header-block-8 #view-id-bus_header .container {
+    width: 100%;
+}
+
+#block-views-block-application-view-block-4 {
+    padding: 60px 0;
+}
+
+
+/* Power of six */
+
+#block-views-block-power-of-six-block-2 {
+    background-color: var(--gray-300);
+}
+
+.view-power-of-six {
+    background: var(--gray-300);
+    position: relative;
+    padding: 60px 0 65px 0;
+}
+
+.view-power-of-six>.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.view-power-of-six>.container .view-header {
+    width: 25%;
+    flex: 0 0 auto;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.view-power-of-six>.container .view-content {
+    width: 75%;
+    flex: 0 0 auto;
+}
+
+.view-power-of-six>.container .view-content .slick__arrow {
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+}
+
+.view-power-of-six>.container .view-content .slick__arrow .slick-arrow {
+    font-size: 0;
+    border: 0;
+    background: transparent;
+}
+
+.view-power-of-six>.container .view-content .slick__arrow .slick-arrow::before,
+.view-power-of-six>.container .view-content .slick__arrow .slick-arrow::after {
+    font-size: 25px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    content: '';
+}
+
+.view-power-of-six>.container .view-content .slick__arrow .slick-prev::before {
+    background: url('../images/arrow2.png') no-repeat;
+    transform: rotate(180deg);
+}
+
+.view-power-of-six>.container .view-content .slick__arrow .slick-next::after {
+    background: url('../images/arrow2.png') no-repeat;
+}
+
+.wh-80 {
+    width: 80px;
+    height: 80px;
+}
+
+.power-of-six {
+    height: 535px;
+    padding: 0 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.power-of-six p {
+    line-height: 48px;
+}
+
+.pos-cont {
+    height: 535px;
+    width: 411px;
+    padding: 70px 30px 30px 30px !important;
+}
+
+.pos-details {
+    margin-top: 35px;
+}
+
+.pos-details h4 {
+    font-weight: 800;
+    line-height: 28px;
+}
+
+.pos-details li {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+.view-id-power_of_six .slide__caption {
+    padding: 20px 10px;
+}
+
+.radius-border {
+    border-radius: 16px !important;
+}
+
+.compare-sec {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.compare-sec button {
+    background: transparent;
+    padding: 17px 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: var(--font-regular);
+}
+
+.compare-sec button:first-child {
+    margin-right: 60px;
+}
+
+.compare-sec button:nth-child(2) {
+    border: 0;
+    text-decoration: underline;
+}
+
+
+/* Bus Listing Page */
+
+.bus-list-page main {
+    margin-top: 154px;
+    background: #F2F2F2;
+}
+
+.user-logged-in.bus-list-page main {
+    margin-top: 40px;
+}
+
+.bus-listing-page {
+    /* background: #F2F2F2; */
+}
+
+.bus-listing-page .container {
+    width: 100%;
+}
+
+.bus-listing-page .container .view-trucks-listings {
+    /* padding-top: 0; */
+}
+
+.bus-listing-page .container .view-trucks-listings>.container {
+    display: flex;
+}
+
+.bus-listing-page .container .container .view-filters,
+.bus-listing-page .container .container .view-content {
+    flex: 0 0 auto;
+}
+
+.ajax-progress.ajax-progress-fullscreen {
+    display: none !important;
+}
+
+.popup {
+    top: 5%;
+    left: 60%;
+    width: 40%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .4);
+}
+
+.bus-listing-page .container .container .view-filters {
+    width: 340px;
+    background-color: var(--gray-200);
+    margin-top: 0px;
+    /* padding: 0 2% 0 6%; */
+    overflow: hidden;
+}
+
+.bus-listing-page .container .container .view-content {
+    width: calc(100% - 340px);
+    padding: 44px 0px 0px 30px;
+}
+
+.bus-listing-page .container .container .view-filters .views-exposed-form .form--inline {
+    flex-direction: column;
+    position: relative;
+}
+
+.bus-listing-page .container .container .view-filters .views-exposed-form .form--inline input[value='Clear all'] {
+    position: absolute;
+    top: 12px;
+    left: 60%;
+    background: none;
+    color: #0A0A5F;
+    border: none;
+    font-size: 20px;
+}
+
+.bus-listing-page .views-exposed-form .form--inline .form-item-title,
+.bus-listing-page .views-exposed-form .form--inline details.card {
+    padding-left: 114px;
+    padding-right: 38px;
+}
+
+.bus-listing-page .views-exposed-form .form--inline .form-item-title label {
+    font-family: var(--font-regular);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details.card {
+    width: 100%;
+    border: 0;
+    margin-bottom: 0;
+}
+
+.bus-listing-page .views-exposed-form .form--inline .form-item-title::after {
+    display: block;
+    margin-bottom: 0;
+}
+
+.bus-listing-page .views-exposed-form .form--inline .form-item-title::after,
+.bus-listing-page .views-exposed-form .form--inline details.card:after {
+    content: '';
+    border-bottom: 1px solid #231F2029;
+    width: 200%;
+    margin-left: -114px;
+    padding-top: 30px;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details summary {
+    background-color: var(--gray-200) !important;
+    border: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-regular);
+    font-size: 20px;
+    line-height: 20px;
+    color: #231F20;
+    font-weight: 500;
+    padding-left: 0;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details summary[aria-expanded="false"]::after,
+.bus-listing-page .views-exposed-form .form--inline details summary[aria-expanded="true"]::after {
+    display: flex;
+    /* font-size: 47px; */
+    font-size: 20px;
+    /* border: 1px solid; */
+    border: 2px solid #307FE2;
+    border-radius: 50%;
+    /* height: 31px;
+    width: 31px; */
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details summary[aria-expanded="false"]::after {
+    /* background-color: red; */
+    content: '+';
+    color: #307FE2;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details summary[aria-expanded="true"]::after {
+    /* background-color: red; */
+    content: '+';
+    transform: rotate(45deg);
+    background: #307FE2;
+    color: #fff;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details .details-wrapper .form-radios .form-radios .js-form-item-field-vehicle-type-target-id input[value='64']:after,
+.bus-listing-page .views-exposed-form .form--inline details .details-wrapper .form-radios .form-radios .js-form-item-field-vehicle-type-target-id input[value='65']:after {
+    width: 1em;
+    height: 1em;
+    border-radius: 6px;
+    top: -4px;
+    left: -3px;
+    position: relative;
+    margin: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details .details-wrapper .form-radios .form-radios .js-form-item-field-vehicle-type-target-id input[value='64']:checked:after,
+.bus-listing-page .views-exposed-form .form--inline details .details-wrapper .form-radios .form-radios .js-form-item-field-vehicle-type-target-id input[value='65']:checked:after {
+    width: 1em;
+    height: 1em;
+    border-radius: 6px;
+    top: -4px;
+    left: -3px;
+    position: relative;
+    margin: 0px;
+    background-color: #0A0A5F;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e"); */
+    background-image: url("../images/checkbox_checked.svg");
+}
+
+.bus-listing-page .views-exposed-form .form--inline details .card-body {
+    padding-left: 0;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details .card-body label {
+    font-family: var(--font-regular);
+    font-size: 18px;
+    line-height: 20px;
+    color: #231F20;
+    font-weight: 400;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-title {
+    font-family: var(--font-regular);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #0A0A5F;
+    border-bottom: 1px solid #C4C4C466;
+}
+
+.trucks-list-wrapper .truck-desc .col-6 {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.trucks-list-wrapper .truck-desc .col-6 h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #231f20;
+}
+
+.trucks-list-wrapper .truck-desc .col-6 span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #231f20;
+}
+
+.trucks-list-wrapper .truck-desc .col-6 h5,
+.trucks-list-wrapper .truck-desc .col-6 span {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.trucks-list-wrapper .truck-desc .col-6:nth-child(1),
+.trucks-list-wrapper .truck-desc .col-6:nth-child(2) {
+    border-bottom: 1px solid #C4C4C466;
+    padding-bottom: 10px;
+}
+
+.trucks-list-wrapper .truck-desc .col-6:nth-child(1),
+.trucks-list-wrapper .truck-desc .col-6:nth-child(3) {
+    border-right: 1px solid #C4C4C466;
+}
+
+.trucks-list-wrapper .truck-desc .col-6:nth-child(3),
+.trucks-list-wrapper .truck-desc .col-6:nth-child(4) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bus-listing-page .view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(4) {
+    background-color: transparent;
+    width: 50%;
+}
+
+.bus-listing-page .view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(5) {
+    background-image: none;
+    width: 52%;
+    background-color: #0A0A5F;
+    color: #fff;
+}
+
+.bus-listing-page .view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(5) a {
+    color: #fff;
+}
+
+.bus-listing-page .view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc .colorbox-media-video {
+    color: transparent;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc .col-2 {
+    width: 13%;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(6) {
+    background-image: url(../images/icon-list.png);
+    background-position: -4111px -15px;
+    background-size: 5959px;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(7) {
+    background-image: url(../images/icon-list.png);
+    background-position: -4111px -13px;
+    background-size: 5645px;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(7) a img {
+    display: none;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc div:nth-child(8) {
+    background-image: url(../images/icon-list.png);
+    background-position: -4277px -15px;
+    background-size: 5650px;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc .file--application-pdf {
+    background-image: none;
+}
+
+.view-trucks-listings .row .views-field .trucks-list-wrapper .truck-desc .file--application-pdf a {
+    color: transparent;
+}
+
+
+/* MY Changes */
+
+.view-filters .form--inline {
+    border: none !important;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios {
+    top: -20% !important;
+}
+
+.vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-radios {
+    gap: 15px;
+}
+
+.bus-finder-filter-application {
+    margin-top: -12px !important;
+    height: 420px !important;
+}
+
+
+/* Brand Page */
+
+.view-id-brand_drop .view-models-drop {
+    padding: 12px 13px;
+    border: 1px solid #aeaeae;
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.view-id-brand_drop .view-models-drop::after {
+    transform: rotate(90deg);
+    content: "›";
+    /* background-image: url(../images/arrow2.png); */
+    /* background-size: 8px 13px !important; */
+    height: 13px !important;
+    width: 1px;
+    display: inline-block;
+    filter: brightness(8.5);
+    margin: 0px 0px 0px 15px;
+}
+
+.view-id-brand_drop .view-content {
+    padding: 5px;
+    border: 1px solid #aeaeae;
+    display: none;
+    background: transparent;
+}
+
+.view-id-brand_drop .view-content li a {
+    color: white;
+    text-decoration: none;
+}
+
+.view-id-brand_drop .view-content li a:hover {
+    text-decoration: underline;
+}
+
+.view-id-brand_drop .view-content.show-drop {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.view-id-brand_drop .selectdropdown {
+    list-style: none;
+    margin: 0;
+}
+
+.view-id-brand_drop .selectdropdown li {
+    margin-left: 0;
+}
+
+
+/* View Models Popup */
+
+.view-models-btn:hover {
+    border: 1px solid #0A0A5F;
+}
+
+.view-models-drawer {
+    max-width: 650px;
+    width: 100% !important;
+}
+
+.view-models-drawer .offcanvas-header,
+.view-models-drawer .offcanvas-body {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.view-models-drawer .offcanvas-header {
+    background: #0A0A5F;
+    color: #fff;
+}
+
+.view-models-drawer .text-reset {
+    background: none;
+    color: #fff !important;
+    opacity: 1;
+    margin: 0;
+    height: auto;
+    transform: rotate(42deg);
+}
+
+.view-models-drawer .text-reset::after {
+    content: '+';
+    font-size: 38px;
+}
+
+.view-models-drawer .offcanvas-body .item-list li {
+    list-style: none;
+    margin: 0;
+    border-bottom: 2px var(--bs-border-style) var(--bs-border-color) !important;
+    padding: 30px 0;
+}
+
+.view-models-drawer .offcanvas-body .item-list li a {
+    color: var(--gray-700);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+
+/* Slider arrow */
+
+.flex-direction-nav a {
+    height: 45px;
+}
+
+@media (max-width: 768px) and (min-width: 300px) {
+    .bus-and-vans-header {
+        position: relative;
+        height: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border-bottom: 1px solid rgba(0, 0, 0, 0.4); */
+    }
+    .search-section {
+        position: relative;
+    }
+    .search-section::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    }
+    .search-section-top #views-exposed-form-site-search-page-1 input::placeholder {
+        color: black;
+    }
+    .region #block-busb5-content {
+        margin-top: 50px;
+    }
+    #block-views-block-bus-header-block-1 .enq-button-sec a {
+        width: 50%;
+        text-wrap: nowrap;
+    }
+    #block-views-block-vans-header-block-1 .enq-button-sec a {
+        width: 50%;
+        text-wrap: nowrap;
+    }
+    #block-views-block-bus-header-block-1 .enq-button-sec {
+        margin: 10px 20px;
+    }
+}
+
+
+/* home page small banner slider */
+
+#block-views-block-bus-category-view-block-1 .field-content {
+    position: relative;
+}

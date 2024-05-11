@@ -1,0 +1,1956 @@
+.inherit-to-a a {
+    all: inherit !important;
+    cursor: pointer !important;
+}
+
+.white-dotted-background,
+.active-white-dotted-background.active {
+    background-image: radial-gradient(#93939357 1px, #ffffff00 0);
+    background-size: 30px 30px;
+}
+
+
+/* z-indexes */
+
+.z-1 {
+    z-index: 1 !important;
+}
+
+.z-2 {
+    z-index: 2 !important;
+}
+
+.z-3 {
+    z-index: 3 !important;
+}
+
+.z-10 {
+    z-index: 10 !important;
+}
+
+.z-0 {
+    z-index: 0 !important;
+}
+
+.z-n1 {
+    z-index: -1 !important;
+}
+
+#view-id-hero_slider .view-header {
+    position: absolute;
+    top: 83%;
+    z-index: 10;
+    width: 100vw;
+}
+
+.vans-img img {
+    width: 100%;
+    height: 234px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+
+#slick-views-news-block-block-1-1-slider {
+    background: #fff;
+    border: 1px solid #BABABA;
+    padding: 20px;
+}
+
+#slick-e34985f0513 {
+    background: #fff;
+    border: 1px solid #BABABA;
+    padding: 20px;
+}
+
+#slick-e34985f0513 .slide__caption {
+    padding: 0;
+}
+
+#slick-views-news-block-block-1-1-slider .slide__caption {
+    padding: 0;
+}
+
+#view-id-hero_slider {
+    margin-bottom: 14rem !important;
+}
+
+#block-quicklinks2-menu,
+#block-quicklinks3-menu {
+    visibility: hidden !important;
+}
+
+header .navbar-expand-lg .container {
+    width: var(--container);
+    padding: 0;
+    margin: auto;
+    max-width: 100%;
+}
+
+
+/* main .block-views-blockhero-slider-block-1 .hero-slider-item09 .container {
+    display: none !important;
+} */
+
+header {
+    background: none !important;
+}
+
+.view-news {
+    padding-bottom: 0px;
+}
+
+main .block-views-blockhero-slider-block-1 .field__item {
+    height: 90vh;
+    overflow: hidden;
+    background: unset !important;
+}
+
+main .block-views-blockhero-slider-block-1 .field__item img,
+main .block-views-blockhero-slider-block-1 .field__item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main {
+    margin-top: 70px;
+}
+
+@media (max-width: 768px) {
+    #view-id-hero_slider {
+        margin-bottom: 10rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .product-heading {
+        position: absolute;
+        top: 190px;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        margin-top: 40px;
+    }
+    .page-node-type-about-us .block-views-blockabout-us-heading-block-1 {
+        padding: 140px 0 60px 0;
+    }
+    #sliding-popup .eu-cookie-compliance-buttons,
+    div#sliding-popup .eu-cookie-withdraw-banner .eu-cookie-compliance-buttons,
+    .eu-cookie-withdraw-tab .eu-cookie-compliance-buttons {
+        margin: 89px 0 0 !important;
+    }
+    .assistance-blue-box {
+        margin: 24px 0 0;
+    }
+}
+
+.page-node-type-products .trucks-main-header {
+    padding: 40px 0 20px;
+}
+
+.flexslider .slides img {
+    width: 80%;
+    display: block;
+}
+
+#flexslider-1 {
+    border: none !important;
+}
+
+.tb-megamenu .mega-nav>li:first-child>a,
+.tb-megamenu .dropdown-menu .mega-nav>li:first-child>a,
+.tb-megamenu .mega-nav>li:first-child>a,
+.tb-megamenu .dropdown-menu .mega-nav>li:last-child>a {
+    color: #000 !important;
+}
+
+.views-field-field-bus-gallery-media .field-content article .field .field__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#view-id-bus_header .flex-control-thumbs.flex-control-thumbs img {
+    object-fit: contain;
+}
+
+.specifications ul li .paragraph--type--specification {
+    height: 100%;
+}
+
+.page-node-type-products .trucks-sticky-menu .view-content {
+    flex-wrap: wrap;
+}
+
+#block-views-block-bus-header-block-3 {
+    margin-top: 20px;
+}
+
+#views-bootstrap-tab-views-bootstrap-bus-header-block-5 {
+    margin-bottom: 100px;
+}
+
+#views-bootstrap-tab-views-bootstrap-bus-header-block-5 .nav .nav-item .nav-link {
+    text-align: left;
+}
+
+#views-bootstrap-tab-views-bootstrap-bus-header-block-5 .field__item {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-looking-for-block div h2 {
+    font-family: var(--font-bold) !important;
+    margin-bottom: 40px;
+}
+
+#search-block-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-form #edit-submit,
+#search-form #edit-basic input[type=search],
+.footer-looking-for-block input[type="search"],
+.footer-looking-for-block input[type="submit"] {
+    border: 0;
+    outline: 0;
+    border-radius: 0;
+    background-color: var(--gray-300);
+    padding: 15px;
+    height: 60px;
+}
+
+#search-form #edit-submit,
+.footer-looking-for-block input[type="submit"] {
+    padding: 30px;
+    font-size: 0;
+    display: block;
+    background-image: url(../images/icon-list.png);
+    background-position: top 50% left -1917px;
+    margin: 0;
+}
+
+#search-form #edit-submit:active,
+.footer-looking-for-block input[type="submit"]:active {
+    background-color: var(--gray-400);
+}
+
+.footer-looking-for-block .form-actions {
+    position: relative;
+}
+
+.footer-looking-for-block #search-block-form .js-form-item.form-item {
+    width: 50%;
+}
+
+#view-id-vehicles_finder .view-content .views-field {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--bs-gray-500);
+    height: 100%;
+}
+
+#view-id-vehicles_finder .view-content .views-field a {
+    text-decoration: none;
+    color: var(--gray-700);
+    font-family: var(--font-bold);
+}
+
+#view-id-vehicles_finder .view-content .views-field a:hover {
+    text-decoration: underline;
+    color: var(--primary-500);
+    font-family: var(--font-bold);
+}
+
+.listing-buses .listing-bus .varients a {
+    text-decoration: none;
+    color: var(--gray-700);
+}
+
+.listing-buses .listing-bus .know-more-link a {
+    font-family: unineue-regular;
+    background: var(--primary-500);
+    color: var(--gray-100) !important;
+    border: 1.5px solid var(--primary-500) !important;
+    transition: var(--tran-05);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 7px;
+    white-space: nowrap;
+}
+
+.listing-buses .listing-bus .know-more-link a:hover {
+    background: var(--gray-100);
+    color: var(--primary-500) !important;
+    border: 1.5px solid var(--primary-500) !important;
+}
+
+.listing-buses .listing-bus .know-more-link a:active {
+    background: var(--primary-100);
+    color: var(--primary-500) !important;
+    border: 1.5px solid var(--primary-500) !important;
+}
+
+.bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id {
+    margin: 0 !important;
+}
+
+main .trucks-about-wrapper div:nth-child(4) a::before {
+    background-position: top -11px left -556px;
+}
+
+main .trucks-about-wrapper div:nth-child(3) a::before {
+    background-position: top -11px left -626px;
+}
+
+main .trucks-about-wrapper div:nth-child(3) .faqs::before {
+    background-image: url(../images/faqs.png) !important;
+    background: no-repeat;
+    bottom: -8px;
+    display: block;
+}
+
+main .trucks-about-wrapper div:nth-child(2) a::before {
+    background-position: top -11px left -696px;
+}
+
+main .trucks-about-wrapper div:nth-child(1) a::before {
+    background-position: top -11px left -765px;
+}
+
+.view-safty-features-block .js-pager__items,
+.variants-view-more-btn .js-pager__items {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.view-safty-features-block .js-pager__items li,
+.variants-view-more-btn .js-pager__items li {
+    margin: auto;
+    padding: 0;
+}
+
+.view-safty-features-block .js-pager__items li a,
+.variants-view-more-btn .js-pager__items li a {
+    color: var(--primary-500);
+    text-decoration: underline;
+    padding: 10px 25px;
+    margin-right: 10px;
+    display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    text-decoration: none;
+}
+
+.view-safty-features-block .js-pager__items li a::after,
+.variants-view-more-btn .js-pager__items li a::after {
+    content: "›";
+    position: absolute;
+    right: 3px;
+    font-size: 27px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.view-safty-features-block .js-pager__items li a:hover,
+.variants-view-more-btn .js-pager__items li a:hover {
+    text-decoration: underline;
+}
+
+.bus-listing-page .views-exposed-form .form--inline details summary[aria-expanded="false"]::after,
+.bus-listing-page .views-exposed-form .form--inline details summary[aria-expanded="true"]::after {
+    padding: 0px 0px 2px 0px;
+}
+
+.bus-listing-page .views-exposed-form .form--inline .form-item-title,
+.bus-listing-page .views-exposed-form .form--inline details.card {
+    padding-left: 17%;
+    background-color: var(--gray-200);
+}
+
+
+/* mega menu starts*/
+
+header nav .tb-megamenu .nav>li>a,
+header nav .tb-megamenu .nav>li>span.tb-megamenu-no-link {
+    font-size: 20px;
+    font-weight: 100 !important;
+    color: var(--gray-700) !important;
+    padding: 15px 20px;
+    border: none;
+}
+
+.tb-megamenu .nav li.dropdown>.dropdown-toggle .caret {
+    display: none;
+}
+
+.header-main-menu .tb-megamenu .dropdown-submenu>.dropdown-menu {
+    position: fixed !important;
+    width: 100% !important;
+    left: 0px;
+    top: 163px;
+    max-height: calc(100vh - 157px);
+    overflow: scroll !important;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li a:hover {
+    font-family: var(--font-bold);
+}
+
+.tb-megamenu span.tb-megamenu-no-link:hover {
+    font-family: var(--font-bold);
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li a .caret {
+    display: none !important;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li.active a {
+    background-color: transparent !important;
+    color: #000 !important;
+}
+
+.header-main-menu .tb-megamenu .dropdown-menu {
+    border: unset;
+    border-top: 1px solid var(--bs-gray-300);
+    border-bottom: 1px solid var(--bs-gray-300);
+}
+
+
+/* mega menu ends*/
+
+
+/* dropdown submenu */
+
+header nav .tb-megamenu .tb-megamenu-nav .main-menu-dropdown-items .menu-head a {
+    font-weight: 500;
+    background: none;
+    color: var(--gray-700) !important;
+    text-transform: uppercase;
+    text-wrap: wrap;
+    text-align: start;
+    line-height: normal;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav .main-menu-dropdown-items .main-menu-dropdown-items-links a {
+    color: var(--primary-300) !important;
+    text-decoration: underline;
+}
+
+
+/* .header-main-menu .tb-megamenu-item .tb-megamenu-submenu .mega-dropdown-inner .tb-megamenu-row {
+    display: flex;
+    justify-content: center;
+} */
+
+.tb-megamenu .mega-nav>li,
+.tb-megamenu .dropdown-menu .mega-nav>li {
+    padding-bottom: 10px;
+}
+
+.tb-megamenu .row-fluid [class*="span"]:first-child {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+/* .tb-megamenu .dropdown-menu li>a,
+.tb-megamenu .dropdown-menu li>span.tb-megamenu-no-link {
+    border-top: 0;
+} */
+
+.header-main-menu .tb-megamenu .dropdown-menu li>a:hover,
+.header-main-menu .tb-megamenu .dropdown-menu li>a:focus,
+.header-main-menu .tb-megamenu .dropdown-submenu:hover>a,
+.header-main-menu .tb-megamenu .dropdown-menu li>span.tb-megamenu-no-link:hover,
+.header-main-menu .tb-megamenu .dropdown-menu li>span.tb-megamenu-no-link:focus,
+.header-main-menu .tb-megamenu .dropdown-submenu:hover>span.tb-megamenu-no-link {
+    background-color: inherit;
+    background-image: none;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    color: var(--primary-300);
+    text-decoration: none;
+}
+
+.tb-megamenu .mega-nav>li span.tb-megamenu-no-link,
+.tb-megamenu .dropdown-menu .mega-nav>li span.tb-megamenu-no-link {
+    padding: 12px !important;
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tb-megamenu-subnav .dropdown-submenu.open .tb-megamenu-no-link {
+    border-bottom: 3px solid var(--primary-300);
+}
+
+.header-main-menu .tb-megamenu .mega-inner {
+    padding: 0;
+}
+
+.popup {
+    width: 40%;
+    font-size: 20px;
+    border-radius: 15px;
+    color: var(--primary-500);
+    text-align: center;
+    padding: 20px 0;
+    transform: translate(-50%, -50%);
+    background-color: var(--gray-300);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .4);
+}
+
+
+/* filter image */
+
+.bus-filters-n-listings .view-filters .form--inline .form-item .form-control {
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #F5F5F5;
+    background-color: #fff;
+    border-radius: 0;
+    background-image: url(../images/search-gray.png);
+    background-repeat: no-repeat;
+    background-position: top 11px right 9px;
+}
+
+
+/* faq search */
+
+#view-id-view_faqs .view-filters .form--inline .form-item .form-control {
+    width: 100%;
+    padding: 20px 40px 20px 20px;
+    border: 1px solid #F5F5F5;
+    border-radius: 0;
+    background-image: url(../images/search-gray.png);
+    background-repeat: no-repeat;
+    background-position: top 24px right 10px;
+}
+
+.faqs .block-views-blockview-faqs-block-1 .view-view-faqs .view-filters .form--inline {
+    display: block
+}
+
+
+/* dropdown submenu */
+
+main .block-blocktabs-blocklatest-updates-block-tabs .ui-widget.ui-widget-content .ui-tabs-panel .home-social-widgets,
+main .block-blocktabs-blocklatest-updates-block-tabs .ui-widget.ui-widget-content .ui-tabs-panel .home-insta-social-widget {
+    width: 100%;
+}
+
+.form-composite>.fieldset-wrapper>.description,
+.form-item .description {
+    font-family: var(--font-bold);
+    font-size: 24px;
+    text-align: center;
+    color: var(--primary-400);
+}
+
+#view-id-vehicles_finder .container {
+    width: 100%;
+}
+
+#view-id-vehicles_finder .container .view-filters {
+    padding: 0;
+}
+
+.bus-finder-filter-application {
+    margin-top: 0 !important;
+    height: 100% !important;
+}
+
+
+/* vehical finder scroll starts */
+
+main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios {
+    overflow-y: auto;
+}
+
+main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-radios {
+    overflow: unset;
+}
+
+main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios::-webkit-scrollbar {
+    height: 5px !important;
+    width: 5px !important;
+}
+
+main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios::-webkit-scrollbar-thumb {
+    background: var(--primary-500) !important;
+    border-radius: 5px;
+}
+
+main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios::-webkit-scrollbar-track {
+    border-right: 5px dashed #DCDCDC;
+    border-top: 5px dashed #DCDCDC;
+}
+
+
+/* Vehical Finder scroll end */
+
+@media only screen and (max-width: 1000px) {
+    footer .region .block-block-groupfooter-quicklinks-getintouch .footer-quick-links-block {
+        float: none;
+        width: 100%;
+        text-align: left !important;
+    }
+    footer .region .block-block-groupfooter-quicklinks-getintouch {
+        padding: 40px 0;
+    }
+    footer .region .block-block-groupfooter-newsletter-search {
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .views-field-field-bus-benefits-points ul li {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-left: 0;
+        list-style: none;
+        padding-right: calc(var(--bs-gutter-x) * 1.5);
+        padding-left: calc(var(--bs-gutter-x) * 2.5);
+        margin-top: 35px;
+    }
+    .view-power-of-six>.container .view-content {
+        width: 70%;
+    }
+    .view-power-of-six>.container .view-header {
+        width: 30%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -40.2%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -39.8%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after {
+        left: -20%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend .form-required::after {
+        right: 50px;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios {
+        border: none !important;
+        padding: 0 !important;
+    }
+    header nav .tb-megamenu .nav>li>a,
+    header nav .tb-megamenu .nav>li>span.tb-megamenu-no-link {
+        font-size: 19px;
+        font-weight: 100 !important;
+        color: var(--gray-700) !important;
+        padding: 15px 18px;
+        border: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .main-header-view .view-header,
+    .main-header-view .view-content {
+        width: unset !important;
+    }
+    .main-header-view>.container {
+        display: block !important;
+    }
+    .view-power-of-six>.container .view-content {
+        width: 60%;
+    }
+    .view-power-of-six>.container .view-header {
+        width: 40%;
+    }
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 .tab-content,
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 .nav {
+        width: 50%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios {
+        display: block !important;
+        height: 48% !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id:nth-child(1) {
+        margin-bottom: 2% !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id {
+        position: relative;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline {
+        width: 50%;
+        margin-left: 50%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend {
+        left: -85%;
+        width: 110px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -89.5%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend .form-required::after {
+        right: 0px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after {
+        left: -28.2%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        height: calc(100% - 90px);
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        padding: 3px 10px;
+        position: absolute;
+        left: -35px;
+        bottom: 0px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline {
+        height: 550px;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        padding: 5px 15px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(2) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(3) legend {
+        top: 205px;
+    }
+    .form-composite>.fieldset-wrapper>.description,
+    .form-item .description {
+        font-size: 20px;
+        position: absolute;
+        left: -87%;
+        background: #fff;
+    }
+    #views-exposed-form-vehicles-finder-block-1 input.form-submit[value="Reset"] {
+        right: 22px;
+    }
+    .bus-listing-page .container .view-trucks-listings>.container {
+        display: block;
+    }
+    .bus-listing-page .container .container .view-filters {
+        width: 100%;
+    }
+    .bus-listing-page .container .container .view-content {
+        width: 100%;
+        padding-left: 30px;
+    }
+    .bus-listing-page .container .container .view-filters .views-exposed-form .form--inline {
+        display: block;
+    }
+    .bus-listing-page .view-filters .form--inline .form-item {
+        width: 100%;
+    }
+    .bus-listing-page .views-exposed-form .form--inline details.card:after {
+        content: '';
+        border-bottom: 1px solid #231F2029;
+        width: 100%;
+        margin-left: 0;
+        padding-top: 0;
+    }
+    .bus-listing-page .views-exposed-form .form--inline .form-item-title,
+    .bus-listing-page .views-exposed-form .form--inline details.card {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    .popup-img-gallary {
+        background-image: url(../images/icon-list.png) !important;
+        background-position: top -11px right -1132px !important;
+    }
+    .popup-youtube-videos {
+        background-image: url(../images/icon-list.png) !important;
+        background-position: top -11px right -1347px !important;
+    }
+    .pdf-viewer-new-window {
+        background-image: url(../images/icon-list.png) !important;
+        background-position: top -11px right -1045px !important;
+    }
+    .view-360-deg {
+        background-image: url(../images/icon-list.png) !important;
+        background-position: top -11px right -914px !important;
+    }
+    .nav-collapse.always-show .tb-megamenu-nav.nav {
+        flex-direction: column;
+    }
+    .btn-navbar.tb-megamenu-button {
+        display: none;
+    }
+    .nav-collapse.always-show.collapse {
+        display: block;
+    }
+    .tb-megamenu .collapse {
+        height: auto !important;
+    }
+    .tb-megamenu .nav-collapse {
+        background: unset;
+        margin-top: 10px;
+        position: unset;
+        width: 100%;
+    }
+    .tb-megamenu .nav-collapse .nav>li>a,
+    .tb-megamenu .nav-collapse .dropdown-menu a,
+    .tb-megamenu .nav-collapse .nav>li>span.tb-megamenu-no-link,
+    .tb-megamenu .nav-collapse .dropdown-menu span.tb-megamenu-no-link {
+        border-bottom: 1px solid var(--gray-400);
+    }
+}
+
+@media (max-width: 979px) {
+    .tb-megamenu .always-show .mega>.mega-dropdown-menu,
+    .tb-megamenu .always-show .dropdown-menu {
+        display: none !important;
+    }
+    .tb-megamenu .always-show .mega.open>.mega-dropdown-menu,
+    .tb-megamenu .always-show .dropdown-menu {
+        display: block !important;
+    }
+    .tb-megamenu .row-fluid,
+    .tb-megamenu .mega-dropdown-menu,
+    .tb-megamenu .row-fluid [class*="span"] {
+        min-width: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .region-nav-additional .views-exposed-form .container form {
+        width: 210px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .views-field-field-bus-benefits-points ul li {
+        flex: 0 0 auto;
+        width: 100%;
+        margin-left: 0;
+        list-style: none;
+        padding-right: calc(var(--bs-gutter-x) * 1.5);
+        padding-left: calc(var(--bs-gutter-x) * 2.5);
+        margin-top: 35px;
+    }
+    #view-id-bus_header .flex-control-thumbs.flex-control-thumbs img {
+        height: 60px;
+    }
+    .specifications ul li {
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+        flex: 0 0 auto;
+        width: 100%;
+        list-style: none;
+        margin: 0;
+    }
+    .view-power-of-six>.container {
+        display: block !important;
+    }
+    .power-of-six {
+        height: unset;
+        padding: 45px !important;
+    }
+    .view-power-of-six>.container .view-content,
+    .view-power-of-six>.container .view-header {
+        width: unset;
+        margin-right: 0px;
+    }
+    .view-id-power_of_six .slide__caption {
+        padding: 20px 0px;
+    }
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 {
+        display: block;
+        height: unset;
+    }
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 .tab-content,
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 .nav {
+        width: 100%;
+    }
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 .nav {
+        overflow: unset;
+        flex-wrap: wrap !important;
+        padding: 0;
+    }
+    #views-bootstrap-tab-views-bootstrap-bus-header-block-5 .field__item {
+        height: unset;
+    }
+    .footer-looking-for-block #search-block-form .js-form-item.form-item {
+        width: 100%;
+    }
+    footer .region .search-block-form {
+        padding: 30px 0;
+    }
+    .ui-widget.ui-widget-content {
+        padding: 0;
+    }
+    main .block-blocktabs-blocklatest-updates-block-tabs .ui-widget.ui-widget-content .ui-tabs-nav li a {
+        font-size: 14px;
+    }
+    .view-vehicles-finder {
+        padding: 22px !important;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        padding: 3px 10px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldset-wrapper .form-radios .form-radios {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .form-composite>.fieldset-wrapper>.description,
+    .form-item .description {
+        font-size: 18px;
+    }
+}
+
+main .block-views-blockhero-slider-block-1 .flexslider .views-field-field-slider-media-for-phones {
+    display: none;
+}
+
+main .block-views-blockhero-slider-block-1 .flexslider .views-field-field-slider-media {
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend {
+        left: -82%;
+        width: 150px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(4) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(5) legend {
+        bottom: 155px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after {
+        left: -28%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -92%;
+    }
+    .faqs .block-views-blockview-faqs-block-1 .view-view-faqs .view-filters {
+        padding: 40px 160px;
+    }
+    #view-id-hero_slider .view-header {
+        top: 81%;
+    }
+    .emi-calculator-menu-home-page {
+        display: none;
+    }
+    main .block-views-blockhero-slider-block-1 .flexslider .views-field-field-slider-media-for-phones {
+        display: block !important;
+        background: #000;
+    }
+    main .block-views-blockhero-slider-block-1 .flexslider .views-field-field-slider-media {
+        display: none;
+    }
+    #views-exposed-form-vehicles-finder-block-1 input.form-submit[value="Reset"] {
+        right: -13px;
+    }
+    main .trucks-about-wrapper div:nth-child(3) .faqs::before {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #slick-views-news-block-block-1-1-slider {
+        padding: 15px;
+    }
+    #slick-e34985f0513 {
+        padding: 15px;
+    }
+    #view-id-hero_slider {
+        margin-bottom: 23rem !important;
+    }
+    #view-id-hero_slider .view-header {
+        top: 80%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend {
+        left: -81%;
+        width: 110px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(4) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(5) legend {
+        bottom: 115px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -94%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend .form-required::after {
+        right: unset;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after {
+        left: -28.2%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline {
+        height: 400px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(3) legend,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup:nth-child(2) legend {
+        top: 165px;
+    }
+    #views-exposed-form-vehicles-finder-block-1 input.form-submit[value="Reset"] {
+        right: 5px;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        left: 25%;
+    }
+    .bus-finder-filter-vehicle-type .fieldset-wrapper .form-radios .form-radios .form-item-field-vehicle-type-target-id label::after {
+        width: 50%;
+    }
+    .compare-sec button {
+        background: transparent;
+        padding: 16px 6px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        font-family: var(--font-regular);
+    }
+    .compare-sec button:first-child {
+        margin-right: 10px;
+    }
+    .compare-sec {
+        display: flex;
+        justify-content: center;
+        margin: 50px 12px;
+    }
+    .faqs .block-views-blockview-faqs-block-1 .view-view-faqs .view-filters {
+        padding: 16px 36px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend {
+        font-size: 14px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after {
+        width: 10px;
+        height: 10px;
+        top: 1px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend .form-required::after {
+        font-size: 31px;
+        margin-left: 5px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios {
+        padding: 0;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup .fieldset-wrapper .form-radios .form-radios {
+        padding: 5px 10px !important;
+    }
+    footer .region-footer .footer-copyright {
+        margin-top: 10px;
+    }
+    .page-node-type-products .trucks-sticky-menu .view-content {
+        flex-wrap: nowrap;
+        height: 60px;
+        overflow-y: hidden;
+        background-color: var(--bs-gray-300);
+    }
+    .page-node-type-products .trucks-sticky-menu.mytesting1 .view-content .views-row.views-row-last a {
+        display: none;
+    }
+    .page-node-type-products .trucks-sticky-menu.mytesting1 .view-content .views-row.views-row-last {
+        position: unset;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend {
+        left: -82%;
+        width: 150px;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup.active legend::after,
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup legend::after {
+        left: -19%;
+    }
+    main #block-views-block-vehicles-finder-block-1 .view-vehicles-finder .form--inline .fieldgroup::before {
+        left: -94.5%;
+    }
+}
+
+
+/* mega menue css */
+
+header nav .tb-megamenu .tb-megamenu-nav li:not(:nth-child(2)) .mega-dropdown-menu {
+    position: fixed;
+    width: 100% !important;
+    top: 100px;
+    overflow: hidden !important;
+    background-color: #fff;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner {
+    padding: 0;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs {
+    border: none;
+    padding: 0;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: 0 40px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav li {
+    margin: auto;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav li a {
+    color: #231F20 !important;
+    display: block;
+    padding: 15px 20px;
+    font-family: var(--f_bold);
+    text-transform: uppercase;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav li a::after {
+    background-color: #0A0A5F;
+    width: 0%;
+    height: 3px;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -3px;
+    transition: all 0.5s;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav li:hover {
+    color: #0A0A5F !important;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav li.ui-tabs-active a {
+    color: #0A0A5F !important;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-nav li.ui-tabs-active a::after {
+    width: 80%;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel {
+    border-top: 1px solid #ddd;
+    padding: 0;
+    height: 75vh;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+
+
+/* header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container {
+  width: var(--container);
+  margin: auto;
+} */
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row {
+    margin-left: 0;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row h3,
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .h3 {
+    font-size: 23px;
+    color: #0A0A5F;
+    padding: 40px 0 5px;
+    text-transform: capitalize;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid {
+    padding: 0;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row {
+    gap: 0;
+    margin-left: 0;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row::before {
+    display: none;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row .menu-trucks-wrapper.row {
+    flex-wrap: wrap;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div {
+    padding: 5px;
+    /* width: 50%; */
+}
+
+
+/* header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div div {
+  width: 100%;
+  background: #F5F5F5;
+} */
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field {
+    width: 100%;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper {
+    gap: 0;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper h3,
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper .h3 {
+    display: block;
+    padding: 20px 0 0;
+    margin: auto;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper h3 a,
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper .h3 a {
+    font-size: 19px;
+    text-decoration: none;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper .col-6 {
+    width: 50%;
+    padding: 0 20px 20px;
+    margin: auto;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper .col-6 img {
+    width: 100%;
+}
+
+header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper .col-6 a {
+    color: #0A0A5F;
+    padding: 8px 0;
+}
+
+.fixed-header header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu {
+    top: 70px;
+}
+
+header #navbarSupportedContent .tb-megamenu .always-show .mega>.mega-dropdown-menu,
+header #navbarSupportedContent .tb-megamenu .always-show .dropdown-menu {
+    display: none !important;
+}
+
+.path-frontpage header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper h3 a,
+.path-frontpage header nav .tb-megamenu .tb-megamenu-nav li .mega-dropdown-menu .mega-dropdown-inner .tb-megamenu-column-inner .blocktabs .ui-tabs-panel .views-element-container .view-content.row .views-view-grid .row div .views-field .menu-trucks-wrapper .h3 a {
+    color: #000 !important;
+}
+
+#view-id-applications_menu_ .container {
+    width: 100% !important;
+}
+
+
+/* mega menu */
+
+
+/* captcha css start  */
+
+.g-recaptcha iframe {
+    transform: scale(0.91)
+}
+
+.footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form .captcha {
+    margin: -14px 0 0 0
+}
+
+.footer-enquire-now-form-popup .webform-ajax-form-wrapper .webform-submission-form .captcha .g-recaptcha {
+    transform: scale(0.7);
+}
+
+
+/* captcha css end  */
+
+.page-node-type-service-page .paragraph--type--service-blocks {
+    margin: 40px 0 60px;
+    position: relative;
+}
+
+.page-node-type-service-page .paragraph--type--service-blocks .field--name-field-services-image-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-node-type-service-page .paragraph--type--service-blocks .services-title-and-desc,
+.page-node-type-service-page .paragraph--type--service-blocks .services-body-and-link {
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.page-node-type-service-page .paragraph--type--service-blocks .field--name-field-service-title {
+    font-size: 22px;
+    text-align: left;
+    font-family: var(--f_heavy);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.page-node-type-service-page .paragraph--type--service-blocks .field--name-field-service-title-description {
+    width: 100%;
+    text-align: left;
+}
+
+.page-node-type-service-page .paragraph--type--service-blocks .field--name-field-service-body {
+    width: 100%;
+    text-align: left;
+    padding: 20px 0;
+}
+
+.page-node-type-service-page .paragraph--type--service-blocks .field--name-field-service-know-more-link a {
+    padding: 10px 15px;
+    background: #0A0A5F;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #0A0A5F;
+    transition: all 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .page-node-type-service-page .paragraph--type--service-blocks .services-title-and-desc,
+    .page-node-type-service-page .paragraph--type--service-blocks .services-body-and-link {
+        float: none;
+        width: 100%;
+    }
+}
+
+.block-social-sharing-block {
+    position: absolute;
+    bottom: -6px;
+    z-index: 9;
+    right: 20px;
+}
+
+.block-social-sharing-block .social-media-sharing li {
+    display: inline-block;
+    margin-right: 15px;
+    list-style: none;
+    list-style-type: none;
+    background: white !important;
+    border-radius: 50% !important;
+}
+
+.resources .form-select,
+.resources .form-control {
+    border: none !important;
+    border-bottom: 1px solid #0A0A5F !important;
+    width: fit-content;
+    background-color: transparent !important;
+}
+
+.assistance-blue-box {
+    padding-top: 0;
+    margin: -175px 0 0;
+    position: relative;
+}
+
+
+/* cookie banner style start */
+
+#sliding-popup h2,
+#sliding-popup .h2,
+div#sliding-popup .eu-cookie-withdraw-banner h2,
+.eu-cookie-withdraw-tab h2,
+.eu-cookie-withdraw-tab .h2 {
+    font-weight: normal;
+    margin: auto;
+}
+
+#sliding-popup,
+div#sliding-popup .eu-cookie-withdraw-banner,
+.eu-cookie-withdraw-tab {
+    background-color: #0A0A5F !important;
+    padding: 10px;
+}
+
+#sliding-popup h2,
+#sliding-popup .h2,
+div#sliding-popup .eu-cookie-withdraw-banner h2,
+.eu-cookie-withdraw-tab h2,
+.eu-cookie-withdraw-tab .h2 {
+    font-weight: normal;
+    margin: auto;
+}
+
+#sliding-popup p,
+div#sliding-popup .eu-cookie-withdraw-banner p,
+.eu-cookie-withdraw-tab p {
+    font-weight: normal;
+}
+
+#sliding-popup .find-more-button,
+div#sliding-popup .eu-cookie-withdraw-banner .find-more-button,
+.eu-cookie-withdraw-tab .find-more-button {
+    font-size: 12px;
+}
+
+#sliding-popup .eu-cookie-compliance-buttons,
+div#sliding-popup .eu-cookie-withdraw-banner .eu-cookie-compliance-buttons,
+.eu-cookie-withdraw-tab .eu-cookie-compliance-buttons {
+    margin: 15px 0 0;
+}
+
+#sliding-popup .eu-cookie-compliance-buttons .agree-button,
+div#sliding-popup .eu-cookie-withdraw-banner .eu-cookie-compliance-buttons .agree-button,
+.eu-cookie-withdraw-tab .eu-cookie-compliance-buttons .agree-button {
+    background-color: #fff;
+    color: #0A0A5F;
+}
+
+#sliding-popup .eu-cookie-compliance-buttons .decline-button,
+div#sliding-popup .eu-cookie-withdraw-banner .eu-cookie-compliance-buttons .decline-button,
+.eu-cookie-withdraw-tab .eu-cookie-compliance-buttons .decline-button {
+    color: #0A0A5F;
+    background-color: #fff;
+}
+
+#sliding-popup .eu-cookie-compliance-buttons .decline-button:hover,
+div#sliding-popup .eu-cookie-withdraw-banner .eu-cookie-compliance-buttons .decline-button:hover,
+.eu-cookie-withdraw-tab .eu-cookie-compliance-buttons .decline-button:hover {
+    background-color: #0A0A5F;
+}
+
+
+/* cookie banner style end */
+
+
+/* news slider tags start  */
+
+.top_tags .item-list ul {
+    margin: 0 0 0.75em 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.top_tags .item-list ul li {
+    list-style-type: none;
+    margin: 0 5px 5px 0;
+    padding: 5px 10px;
+    display: inline-block;
+    background: rgba(48, 128, 226, 0.3137254902);
+    color: #0A0A5F;
+    font-size: 15px;
+}
+
+
+/* news slider tags end  */
+
+
+/* about us customer slider styling start */
+
+#view-id-about_us_gallery .container .flexslider {
+    margin-bottom: 20px;
+}
+
+#view-id-about_us_gallery .container .flexslider .slides img {
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+}
+
+#view-id-about_us_gallery .container #slider .field--name-field-media-oembed-video {
+    height: 400px;
+    width: 100%;
+}
+
+#view-id-about_us_gallery .container #slider .field--name-field-media-oembed-video iframe {
+    height: 400px !important;
+    width: 100% !important;
+}
+
+#view-id-about_us_gallery .container #carousel .field--name-field-media-oembed-video iframe {
+    border-radius: 6px;
+    width: 100% !important;
+    height: 120px !important;
+}
+
+#view-id-about_us_gallery .container {
+    width: 100%;
+}
+
+#view-id-about_us_gallery .container #carousel .slides li {
+    padding: 0;
+    background: none;
+    border: none;
+    height: 130px;
+    width: 200px !important;
+    display: inline-block !important;
+}
+
+#view-id-about_us_gallery .container #carousel ul.slides li.flex-active-slide {
+    border: none !important;
+}
+
+.page-node-type-about-us .block-blocktabs-blockabout-us-gallery #slider .flex-control-nav {
+    display: none;
+}
+
+.page-node-type-about-us .block-blocktabs-blockabout-us-gallery #carousel .field-content::after,
+.page-node-type-about-us .block-blocktabs-blockabout-us-gallery #slider .field-content::after {
+    background-color: transparent !important;
+}
+
+
+/* about us customer slider styling end */
+
+
+/* bus header icons start */
+
+.bus-dealer-icon>a {
+    height: 48px;
+    width: 50px;
+    object-fit: contain;
+    font-size: 0 !important;
+    background: url(../images/bus-dealer-icon.png) no-repeat;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: block;
+    background-position: center;
+    position: relative;
+}
+
+.bus-dealer-icon>a::after {
+    content: 'Find a Nearby  Dealer';
+    display: block;
+    color: var(--gray-700) !important;
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -40px;
+    right: -20px;
+    width: 90px;
+}
+
+.bus-gallary-icon>a {
+    height: 48px;
+    width: 50px;
+    object-fit: contain;
+    font-size: 0 !important;
+    background: url(../images/galler.png) no-repeat;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: block;
+    background-position: center;
+    position: relative;
+}
+
+.bus-gallary-icon>a::after {
+    content: 'Gallery';
+    display: block;
+    color: var(--gray-700) !important;
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -22px;
+    right: 6px;
+}
+
+.bus-video-icon .colorbox-media-video {
+    height: 48px;
+    width: 50px;
+    object-fit: contain;
+    font-size: 0 !important;
+    background: url(../images/bus-video-icon.png) no-repeat;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: block;
+    background-position: center;
+    position: relative;
+}
+
+.bus-video-icon .colorbox-media-video::after {
+    content: 'Video';
+    display: block;
+    color: var(--gray-700) !important;
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -22px;
+    right: 6px;
+}
+
+.download-brochure-icon .file--application-pdf {
+    background-image: url() !important;
+}
+
+.download-brochure-icon .file--application-pdf>a {
+    height: 48px;
+    width: 50px;
+    object-fit: contain;
+    font-size: 0 !important;
+    background: url(../images/bus-brochure-icon.png) no-repeat;
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    display: block;
+    background-position: center;
+    position: relative;
+}
+
+.download-brochure-icon .file--application-pdf>a::after {
+    content: 'Download Brochure';
+    display: block;
+    color: var(--gray-700) !important;
+    font-size: 12px;
+    text-decoration: none;
+    position: absolute;
+    bottom: -40px;
+    right: 0px;
+}
+
+.search-tabs .views-exposed-form {
+    display: none;
+}
+
+#slick-e34985f0513 img {
+    height: 160px;
+    width: 360px;
+    object-fit: cover;
+}
+
+#block-views-block-service-page-block-6 .container .view-content .service-banner-image img {
+    width: 100%;
+}
+
+
+/* vans available color css start */
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .container {
+    position: relative;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .container #edit-field-color-type-target-id--4--wrapper {
+    display: flex;
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 12px;
+    position: absolute;
+    top: -70px;
+    left: 51%;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .container #edit-field-color-type-target-id--4--wrapper label {
+    display: none;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form--inline legend span.form-required::after {
+    content: ":";
+    background: none;
+    font-size: 20px;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form--inline legend span {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios {
+    display: flex;
+    gap: 20px;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color-type-target-id input[value='167']:after,
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color__target-id input[value='92']:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -8px;
+    left: -4px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid #f2f2f2;
+}
+
+@media (max-width:1400px) and (min-width:992px) {}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color-type-target-id input[value='167']:checked:after,
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color__target-id input[value='92']:checked:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -8px;
+    left: -4px;
+    position: relative;
+    padding: 5px;
+    background-color: #fff;
+    content: '';
+    box-shadow: 0px 0px 0px 2px #307FE2;
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid #f2f2f2;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color-type-target-id input[value='168']:after,
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color__target-id input[value='91']:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -8px;
+    left: -4px;
+    position: relative;
+    background-color: #FEC200;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid #f2f2f2;
+}
+
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color-type-target-id input[value='168']:checked:after,
+.page-node-type-vans #block-exposedformvans-headerblock-1 .form-radios .form-radios .js-form-item-field-color__target-id input[value='168']:checked:after {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    top: -8px;
+    left: -4px;
+    position: relative;
+    padding: 5px;
+    background-color: #FEC200;
+    content: '';
+    box-shadow: 0px 0px 0px 1.5px #003CC5;
+    display: inline-block;
+    visibility: visible;
+    border: 5px solid #f2f2f2;
+}
+
+@media (max-width: 768px) {
+    .page-node-type-vans #block-exposedformvans-headerblock-1 .container #edit-field-color-type-target-id--4--wrapper {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-top: 30px;
+    }
+}
+
+
+/* vans available color css end */
+
+
+/* Gallery page css start */
+
+.gallery #block-blocktabsgallery {
+    padding: 0 0 70px 0;
+}
+
+.gallery #block-blocktabsgallery h2,
+.gallery #block-blocktabsgallery .h2 {
+    text-align: center;
+    font-size: var(--headingS1);
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content {
+    border: none;
+    padding: 40px 0 0;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-nav {
+    background: #F5F5F5;
+    border: none;
+    border-radius: 100px;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    margin: auto;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-nav li {
+    width: 100%;
+    border: none;
+    background: none;
+    text-align: center;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-nav li a {
+    display: block;
+    width: 100%;
+    border-radius: 100px;
+    padding: 15px 25px;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-nav li a:hover {
+    color: #0A0A5F;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-nav li.ui-tabs-active a {
+    background-color: #0A0A5F;
+    color: #fff;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel {
+    padding: 50px 0 0;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default {
+    padding: 0;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section {
+    height: 65vh !important;
+    overflow: hidden;
+    width: 100% !important;
+    position: relative;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section div,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section .media,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section iframe {
+    width: 100% !important;
+    height: 100% !important;
+    text-align: center;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section div img,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section .media img,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section iframe img {
+    height: 100%;
+    max-width: initial;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section .views-field-field-about-gallery-media-title {
+    bottom: 0 !important;
+    position: absolute;
+    height: 63px !important;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .views_slideshow_cycle_teaser_section .views-field-field-about-gallery-media-title .field-content {
+    margin: auto;
+    height: auto !important;
+    text-align: left;
+    width: 90% !important;
+    color: #fff;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom {
+    margin-top: 50px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    gap: 20px;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom div,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom .media {
+    width: 150px;
+    height: 100%;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    background: #000;
+    transition: all 0.5s;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom div img,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom .media img {
+    width: 100%;
+    max-width: initial;
+    margin: auto;
+    object-fit: cover;
+    height: 100%;
+    transition: all 0.5s;
+    opacity: 0.3;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom div.active img,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom .media.active img,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom .media-library-view--widget .view-header a.media.is-active img,
+.media-library-view--widget .view-header .gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom a.media.is-active img {
+    opacity: 1;
+    transform: scale(1.1);
+    border: 1px solid #0A0A5F;
+}
+
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom div:hover img,
+.gallery #block-blocktabsgallery .ui-widget.ui-widget-content .ui-tabs-panel .view-content .skin-default .widget_pager_bottom .media:hover img {
+    transform: scale(1.1);
+}
+
+
+/* Gallery page css end */
+
+
+/* Gallery css start */
+
+.gallery #block-blocktabsgallery #blocktabs-gallery-1,
+.gallery #block-blocktabsgallery #blocktabs-gallery-2 {
+    padding: 60px 0;
+}
+
+.gallery #block-blocktabsgallery #blocktabs-gallery-1 #view-id-gallery .view-content,
+.gallery #block-blocktabsgallery #blocktabs-gallery-2 #view-id-gallery .view-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.gallery #block-blocktabsgallery #blocktabs-gallery-1 #view-id-gallery .view-content .views-row,
+.gallery #block-blocktabsgallery #blocktabs-gallery-2 #view-id-gallery .view-content .views-row {
+    padding: 0 !important;
+}
+
+.gallery #block-blocktabsgallery #blocktabs-gallery-1 img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    border: 4px solid white;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.gallery #block-blocktabsgallery #blocktabs-gallery-2 iframe {
+    height: 200px;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width:768px) {
+    .gallery #block-blocktabsgallery #blocktabs-gallery-1,
+    .gallery #block-blocktabsgallery #blocktabs-gallery-2 {
+        padding: 40px 0;
+    }
+    .gallery #block-blocktabsgallery #blocktabs-gallery-1 #view-id-gallery .view-content,
+    .gallery #block-blocktabsgallery #blocktabs-gallery-2 #view-id-gallery .view-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:430px) {
+    .gallery #block-blocktabsgallery #blocktabs-gallery-1,
+    .gallery #block-blocktabsgallery #blocktabs-gallery-2 {
+        padding: 40px 0;
+    }
+    .gallery #block-blocktabsgallery #blocktabs-gallery-1 #view-id-gallery .view-content,
+    .gallery #block-blocktabsgallery #blocktabs-gallery-2 #view-id-gallery .view-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+/* Gallery css end */

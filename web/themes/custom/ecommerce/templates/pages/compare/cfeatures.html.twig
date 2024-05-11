@@ -1,0 +1,26 @@
+{% if arr_nodes is not empty %}
+        <div class="accordion" id="comparevehicle">
+            <div class="accordion-item">
+                <h2 class="accordion-header border-bottom-100" id="headingOne">
+                        <button class="accordion-button tb-fs-20 font-bolder" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        {{ 'Summary'|t }}
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#comparevehicle">
+                    <div class="accordion-body p-2 pt-4 row">
+                        {% for arr_node in arr_nodes %}
+                        <div class="col">
+                            {% if arr_node.node.field_summary.value %}
+                            {{ arr_node.node.field_summary.value|raw }}
+                            {% else %}
+                            <span class"text-center">-</span>
+                            {% endif %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+{% endif %}

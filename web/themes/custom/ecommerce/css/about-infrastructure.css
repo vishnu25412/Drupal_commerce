@@ -1,0 +1,136 @@
+.bus-infrastructure-img {
+    width: 100% !important;
+    object-fit: contain;
+}
+
+#block-views-block-about-infrastructure-block-2 .container {
+    width: 100%;
+}
+
+.glimse {
+    position: relative;
+}
+
+.glimse .slick-prev {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    background: url(../images/arrow2.png) no-repeat;
+    display: block;
+    height: 30px;
+    width: 20px;
+    border: none;
+}
+
+.glimse .slick-next {
+    position: absolute;
+    top: 50%;
+    right: 94%;
+    background: url(../images/arrow2.png) no-repeat;
+    height: 30px;
+    width: 20px;
+    display: block;
+    border: none;
+    transform: rotate(180deg);
+}
+
+.glimse .slick-slide img {
+    width: 90%;
+}
+
+
+/* Accordian Styling */
+
+@media all {
+    #view-id-about_infrastructure_map .container {
+        width: 100%;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content {
+        width: 100%;
+        position: relative;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion {
+        padding-right: 63%;
+        position: initial;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item {
+        border: none;
+        border-bottom: 1px solid #F5F5F5;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-button {
+        background: none;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+        padding: 20px;
+        color: #231F20;
+        font-size: 19px;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-button.collapsed {
+        font-family: var(--font-bold) !important;
+        color: var(--gray-600) !important;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-button {
+        font-family: var(--font-bold);
+        color: var(--gray-700);
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-body {
+        padding: 0 20px;
+        height: 200px;
+        overflow-y: auto;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-body::-webkit-scrollbar {
+        height: 5px !important;
+        width: 5px !important;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-body::-webkit-scrollbar-thumb {
+        background: var(--primary-500) !important;
+        border-radius: 5px;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-body::-webkit-scrollbar-track {
+        border-right: 5px dashed #DCDCDC;
+        border-top: 5px dashed #DCDCDC;
+    }
+    #block-views-block-testimonials-block-1-2 #view-id-testimonials .pager {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-item .accordion-body .views-field-field-accordion-heading {
+        font-family: var(--f_heavy);
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-body {
+        padding: 0 0 20px;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-body .views-field-field-accordion-media {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: fit-content;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .views-field .views-field-field-accordion-media .field__item {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 2000px) {
+    .block-views-blockabout-infrastructure-map-block-1 .view-content {
+        height: 650px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion .accordion-body .views-field-field-accordion-media {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .block-views-blockabout-infrastructure-map-block-1 .view-content .accordion {
+        padding: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {}
+
+@media (min-width: 320px) and (max-width: 375px) {}

@@ -1,0 +1,87 @@
+<div class="container">
+    <div class="d-flex flex-column compare-heading flex-sm-row justify-content-between">
+    <h3 class="tb-model-heading text-center md:text-start">{{ 'Model Comparison'|t }}</h3>
+            <select class="selectApplication selected_application " id="sel_terms">
+                <option value="">{{ 'Select Application'|t }}</option>
+                {% for category_id, category_name in arr_category %}
+                    <option value="{{ category_id }}">{{ category_name['name'] }}</option>
+                {% endfor %}
+            </select>
+   </div>
+            <div class="compare-main">
+                <div class="col-md-4 col-lg-4 compare--list" aria-hidden="true" tabindex="0">
+                    <div class="compare--product compare--product--1">
+                        <div class="image">
+                            <img src="{{ base_path ~ directory }}/images/compare/compare.jpg" class="tax_image" alt="Select Product">
+                        </div>
+                        <select class="form-control selected_application d-none" id="sel_terms">
+                            <option value="">{{ 'Select Application'|t }}</option>
+                            {% for category_id, category_name in arr_category %}
+                                <option value="{{ category_id }}">{{ category_name['name'] }}</option>
+                            {% endfor %}
+                        </select>
+                        <select class="form-control selected_terms" id="sel_terms_application"> <!-- New Select for Application -->
+                            <option>{{ 'Select Brand'|t }}</option>
+                        </select>
+
+                        <select class="form-control selected_nodes my-product" id="selected_nodes_tax">
+                        <option>{{ 'Select Product'|t }}</option>
+                        </select>
+                    </div>
+                   
+                </div>
+                <div class="col-md-4 col-lg-4 compare--list" aria-hidden="true" tabindex="0">
+                    <div class="compare--product compare--product--2">
+                        <div class="image">
+                            <img src="{{ base_path ~ directory }}/images/compare//compare.jpg" class="tax_image" alt="Select Product">
+                        </div>
+                        <select class="form-control selected_application d-none" id="sel_terms">
+                            <option value="">{{ 'Select Application'|t }}</option>
+                            {% for category_id, category_name in arr_category %}
+                                <option value="{{ category_id }}">{{ category_name['name'] }}</option>
+                            {% endfor %}
+                        </select>
+                        <select class="form-control selected_terms" id="sel_terms_application"> <!-- New Select for Application -->
+                            <option>{{ 'Select Brand'|t }}</option>
+                        </select>
+
+                        <select class="form-control selected_nodes my-product" id="selected_nodes_tax">
+                        <option>{{ 'Select Product'|t }}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 compare--list" aria-hidden="true" tabindex="-1">
+                    <div class="compare--product compare--product--3">
+
+                        <div class="image">
+                            <img src="{{ base_path ~ directory }}/images/compare//compare.jpg" class="tax_image" alt="Select Product">
+                        </div>
+                        <select class="form-control selected_application d-none" id="sel_terms">
+                            <option value="">{{ 'Select Application'|t }}</option>
+                            {% for category_id, category_name in arr_category %}
+                                <option value="{{ category_id }}">{{ category_name['name'] }}</option>
+                            {% endfor %}
+                        </select>
+                        <select class="form-control selected_terms" id="sel_terms_application"> <!-- New Select for Application -->
+                            <option>{{ 'Select Brand'|t }}</option>
+                        </select>
+                        <select class="form-control selected_nodes my-product" id="selected_nodes_tax">
+                        <option>{{ 'Select Product'|t }}</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        <div class="row my-3">
+            <div class="col-lg-12 text-center">
+                <a href="{{ lang_code }}/compare" class="btn tb-btn-primary rounded-5">{{ 'Compare'|t }}</a>
+            </div>
+        </div>
+</div>
+
+<script>
+    var product_items = {{ arr_products|json_encode|json_encode|raw }};
+    var category_items = {{ arr_category|json_encode|json_encode|raw }};
+    var brand_items = {{ arr_brands|json_encode|json_encode|raw }}; // New variable for application
+</script>
+
+{{ attach_library('busb5/global-scripts') }}
